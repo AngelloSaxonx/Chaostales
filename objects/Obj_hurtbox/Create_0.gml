@@ -1,0 +1,2 @@
+hittable = true
+from = noone
