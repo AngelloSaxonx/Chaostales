@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"spr_crimson_arena_collision",
   "bboxMode":0,
-  "bbox_bottom":239,
+  "bbox_bottom":219,
   "bbox_left":0,
   "bbox_right":319,
   "bbox_top":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a966b234-5605-4d6c-8364-78130cd8f946","name":"a966b234-5605-4d6c-8364-78130cd8f946","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"549dc870-ef3c-4c12-99ab-403eea7718df","name":"549dc870-ef3c-4c12-99ab-403eea7718df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
-  "height":240,
+  "height":220,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"01eb43c5-5e92-49bc-ba74-e639410f44da","blendMode":0,"displayName":"default","isLocked":false,"name":"01eb43c5-5e92-49bc-ba74-e639410f44da","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4b6ceb7d-4da5-4de1-898c-0221c1694c17","blendMode":0,"displayName":"default","isLocked":false,"name":"4b6ceb7d-4da5-4de1-898c-0221c1694c17","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_crimson_arena_collision",
   "nineSlice":{
@@ -40,7 +40,7 @@
       0,
       1,
     ],
-    "top":180,
+    "top":165,
   },
   "origin":7,
   "parent":{
@@ -88,14 +88,14 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a966b234-5605-4d6c-8364-78130cd8f946","path":"sprites/spr_crimson_arena_collision/spr_crimson_arena_collision.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"66db97b1-943b-4354-b07e-90b54e166dc7","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"549dc870-ef3c-4c12-99ab-403eea7718df","path":"sprites/spr_crimson_arena_collision/spr_crimson_arena_collision.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"6c0542e2-2ea8-4191-ae9b-d0538a0fdb27","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
     "xorigin":160,
-    "yorigin":240,
+    "yorigin":220,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
