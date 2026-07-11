@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_nyixling_sleep",
+  "%Name":"spr_nakoling_sleep",
   "bboxMode":2,
   "bbox_bottom":39,
   "bbox_left":12,
@@ -24,19 +24,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2472d7b5-cf4e-4556-8ce7-ba6eb84d1299","blendMode":0,"displayName":"default","isLocked":false,"name":"2472d7b5-cf4e-4556-8ce7-ba6eb84d1299","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_nyixling_sleep",
+  "name":"spr_nakoling_sleep",
   "nineSlice":null,
   "origin":7,
   "parent":{
     "name":"Movement",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nyixling/Movement.yy",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nakoling/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_nyixling_sleep",
+    "%Name":"spr_nakoling_sleep",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -60,7 +60,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_nyixling_sleep",
+    "name":"spr_nakoling_sleep",
     "playback":1,
     "playbackSpeed":6.0,
     "playbackSpeedType":0,
@@ -72,16 +72,16 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3db84343-7681-43bd-905f-a762f65bf354","path":"sprites/spr_nyixling_sleep/spr_nyixling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3db84343-7681-43bd-905f-a762f65bf354","path":"sprites/spr_nakoling_sleep/spr_nakoling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"1d9c7e97-a09a-4807-81b4-e10ee25a764a","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb2dc4dd-ebc6-488d-83be-41b08bc87a09","path":"sprites/spr_nyixling_sleep/spr_nyixling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb2dc4dd-ebc6-488d-83be-41b08bc87a09","path":"sprites/spr_nakoling_sleep/spr_nakoling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"234d1747-a790-4a42-90e8-cfef2a077012","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"949a6985-b06e-425e-9cdc-ca6a74cc6527","path":"sprites/spr_nyixling_sleep/spr_nyixling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"949a6985-b06e-425e-9cdc-ca6a74cc6527","path":"sprites/spr_nakoling_sleep/spr_nakoling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"31598a9b-bc9c-4397-975e-da13841c8269","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f6357bc-51cc-46fc-825e-da048808e825","path":"sprites/spr_nyixling_sleep/spr_nyixling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0f6357bc-51cc-46fc-825e-da048808e825","path":"sprites/spr_nakoling_sleep/spr_nakoling_sleep.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"cc3f9a02-697f-4b14-81ce-6837d1fd8f49","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

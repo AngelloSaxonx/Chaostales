@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_nyixwing_hurt",
+  "%Name":"spr_nakoling_hurt",
   "bboxMode":2,
   "bbox_bottom":39,
   "bbox_left":12,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"974cdc69-df78-4117-bb9a-a6e2a90215a6","name":"974cdc69-df78-4117-bb9a-a6e2a90215a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"030bebe5-13cb-4728-a245-69b0f690f1c2","name":"030bebe5-13cb-4728-a245-69b0f690f1c2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"2472d7b5-cf4e-4556-8ce7-ba6eb84d1299","blendMode":0,"displayName":"default","isLocked":false,"name":"2472d7b5-cf4e-4556-8ce7-ba6eb84d1299","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_nyixwing_hurt",
+  "name":"spr_nakoling_hurt",
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Nyixwing",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nyixwing.yy",
+    "name":"Movement",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nakoling/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_nyixwing_hurt",
+    "%Name":"spr_nakoling_hurt",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_nyixwing_hurt",
+    "name":"spr_nakoling_hurt",
     "playback":1,
     "playbackSpeed":7.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"974cdc69-df78-4117-bb9a-a6e2a90215a6","path":"sprites/spr_nyixwing_hurt/spr_nyixwing_hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"fa456649-5a0b-441a-b0ef-9874ee445418","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"030bebe5-13cb-4728-a245-69b0f690f1c2","path":"sprites/spr_nakoling_hurt/spr_nakoling_hurt.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"68e7d5ba-feae-4b9e-89c7-5fe53797521b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

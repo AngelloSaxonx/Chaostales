@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_nyixling",
-    "path":"sprites/spr_nyixling/spr_nyixling.yy",
+    "name":"spr_nakoling",
+    "path":"sprites/spr_nakoling/spr_nakoling.yy",
   },
   "spriteMaskId":null,
   "visible":true,

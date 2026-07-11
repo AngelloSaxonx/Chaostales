@@ -1,5 +1,5 @@
 y = y-1
-idle_spr = spr_nyixling;
+idle_spr = spr_nakoling;
 Target = obj_azure
 destinationX = x
 destinationY = y
