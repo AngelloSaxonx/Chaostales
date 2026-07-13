@@ -6,8 +6,8 @@
   "name":"obj_climb",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"Obj none visual",
+    "path":"folders/Objets/Obj none visual.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -74,11 +74,6 @@ else
 }
 
 #endregion
-
-
-
-
-
 // Checking Y Ground
 #region
 var list = ds_list_create()
@@ -316,6 +311,53 @@ if place_meeting(x+(xspd*spd),y,obj_collision)
 x += xspd*spd
 y += yspd
 #endregion
+
+//Animation
+if (xspd != 0)
+{
+	image_xscale = xspd
+}
+	
+if (yspd != 0) && (!instance_place(x,y+1+yspd,obj_collision))
+{
+	if (sprite_index != jump_spr)
+	{
+		image_index = 0
+	}
+	
+	if (yspd < 0)
+	{
+		image_index = 0;
+	}
+	else
+	{
+		if (image_index >= image_number - 1)
+		{
+			image_speed = 0;
+		}
+	}
+	sprite_index = jump_spr
+}
+else
+{
+	image_speed = 1;
+	if (xspd != 0)
+	{
+		if (sprite_index != walk_spr)
+		{
+			image_index = 0
+		}
+		sprite_index = walk_spr
+	}
+	else
+	{
+		if (sprite_index != idle_spr)
+		{
+			image_index = 0
+		}
+		sprite_index = idle_spr
+	}
+}
 
 depth = -300;
 

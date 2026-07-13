@@ -1,5 +1,7 @@
 y = y-1
 idle_spr = spr_nakoling;
+walk_spr = spr_nakoling_walk;
+jump_spr = spr_nakoling_jump
 Target = obj_azure
 destinationX = x
 destinationY = y
