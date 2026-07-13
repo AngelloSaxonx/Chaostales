@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Nyixwing",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nyixwing.yy",
+    "name":"Movement",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nyixwing/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,11 +1,11 @@
 //create
 hp_max = 10;
 hp = 10;
-hp_spr = spr_heart_plant;
+hp_spr = spr_heart;
 
 en_max = 10;
 en = 0;
-en_spr = spr_energy_meter;
+
 
 
 char = "Azure";
