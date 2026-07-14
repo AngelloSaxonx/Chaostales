@@ -15,7 +15,7 @@ if (timer_rescout > 0)
 }
 else
 {
-	sub_state = "Scouting"//choose("Scouting","Scouting","Gathering")
+	sub_state = choose("Scouting","Scouting","Scouting","Resting","Gathering")
 	
 	switch (sub_state)
 	{
@@ -40,12 +40,26 @@ else
 			checker = roll1;
 			var random_coll1 = instance_find(obj_crimson_bush,roll1)
 			if (random_coll1 != noone){
-			destinationX = random_coll1.x
-			destinationY = random_coll1.bbox_bottom-1
+			destinationX = random_coll.x
+			destinationY = random_coll.bbox_bottom-1
 			}
 			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
 			{
-				timer_rescout = 300;
+				timer_rescout = 600;
+			}
+		break;
+		case "Resting":
+			check_my_self = 0;
+			randomise()
+			var roll2 = irandom(instance_number(obj_crimson_camp)-1)
+			var random_coll2 = instance_find(obj_crimson_camp,roll2)
+			if (random_coll2 != noone){
+			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
+			destinationY = random_coll2.bbox_bottom - 30
+			}
+			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{
+				timer_rescout = 1000;
 			}
 		break;
 	}
@@ -58,11 +72,14 @@ break;
 case "Chasing":
 destinationX = Target.x
 destinationY = Target.y
+sub_state = "Scouting";
 break;
 
 }
 
 // Decetion
+if (sprite_index != sleepy_spr)
+{
 var coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)
 if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
 {
@@ -71,6 +88,7 @@ if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
 else
 {
 	state = "Wandering";
+}
 }
 
 #endregion
@@ -351,11 +369,22 @@ else
 	}
 	else
 	{
-		if (sprite_index != idle_spr)
+		if (sub_state == "Resting")
 		{
-			image_index = 0
+			if (sprite_index != sleepy_spr)
+			{
+				image_index = 0
+			}
+			sprite_index = sleepy_spr
 		}
-		sprite_index = idle_spr
+		else
+		{
+			if (sprite_index != idle_spr)
+			{
+				image_index = 0
+			}
+			sprite_index = idle_spr
+		}
 	}
 }
 
