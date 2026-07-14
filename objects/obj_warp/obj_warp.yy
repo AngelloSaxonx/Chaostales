@@ -9,8 +9,8 @@
   "name":"obj_warp",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj none visual",
-    "path":"folders/Objets/Obj none visual.yy",
+    "name":"Objets",
+    "path":"folders/Objets.yy",
   },
   "parentObjectId":null,
   "persistent":false,

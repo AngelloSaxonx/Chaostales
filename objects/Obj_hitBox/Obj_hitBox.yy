@@ -10,8 +10,8 @@
   "name":"Obj_hitBox",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obj none visual",
-    "path":"folders/Objets/Obj none visual.yy",
+    "name":"Hitboxes",
+    "path":"folders/Objets/Hitboxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
