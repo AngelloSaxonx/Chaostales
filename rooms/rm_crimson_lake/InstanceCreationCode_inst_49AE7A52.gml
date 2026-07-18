@@ -1,3 +1,3 @@
 target_x = 20;
 target_y = 200;
-target_rm = rm_crimson_station_1;
+target_rm = rm_crimson_boss_1;

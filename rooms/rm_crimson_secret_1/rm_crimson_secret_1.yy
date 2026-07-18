@@ -50,11 +50,10 @@
         {"$GMRInstance":"v4","%Name":"inst_5B1421E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5B1421E6","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":3.0,"x":260.0,"y":20.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ts_crimson_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
-          2,24,5,-11,28,6,4,1,1,33,20,38,-9,37,7,39,18,1,12,12,20,36,-7,-2147483648,-2,0,2,46,18,-3,1,2,20,36,
-          -3,-2147483648,-3,0,10,40,45,45,48,18,12,1,1,20,36,-3,-2147483648,-3,0,5,46,9,10,10,2,-3,1,4,20,47,45,
-          41,-4,0,18,46,18,24,12,1,1,12,12,3,10,11,36,40,45,45,41,46,27,-5,28,10,1,5,28,29,36,46,30,32,36,49,-6,
-          37,9,12,20,38,37,50,49,37,37,50,-7,-2147483648,3,1,20,47,-13,45,2,44,3,-14,10,4,53,1,1,12,-3,1,4,12,
-          1,1,12,-3,1,2,12,1,
+          2,24,5,-11,28,5,4,1,1,33,20,-11,37,6,18,1,12,12,20,0,-7,-2147483648,-3,0,1,18,-3,1,2,20,0,-3,-2147483648,
+          -3,0,10,40,45,46,46,18,12,1,1,20,0,-3,-2147483648,-4,0,4,9,10,10,2,-3,1,3,20,46,47,-6,0,17,18,24,12,
+          1,1,12,12,3,10,11,0,40,45,45,0,0,27,-5,28,11,1,5,28,29,0,0,30,32,0,0,36,-5,37,4,12,20,37,38,-4,0,1,50,
+          -7,-2147483648,2,1,20,-14,46,2,44,3,-14,10,4,53,1,1,12,-3,1,4,12,1,1,12,-3,1,2,12,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crimson_fields_front","path":"tilesets/ts_crimson_fields_front/ts_crimson_fields_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_crimson_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":16,"TileCompressedData":[
           -18,-2147483648,2,12,30,-5,12,1,21,-3,12,-5,-2147483648,-5,12,1,30,-4,12,1,30,-5,-2147483648,4,30,12,
@@ -67,7 +66,7 @@
   "name":"rm_crimson_secret_1",
   "parent":{
     "name":"Crimson Fields",
-    "path":"folders/Pièces/Crimson Fields.yy",
+    "path":"folders/Rooms/Crimson Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

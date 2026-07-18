@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Party",
-    "path":"folders/Objets/Party.yy",
+    "path":"folders/Objects/Party.yy",
   },
   "parentObjectId":{
     "name":"Obj_hurtbox",

@@ -4,7 +4,7 @@ if(_layer != -1) _layer[1] = layer_create(300);
 
 layer_sprite_create(_layer[0], x, y, spr_crimson_arena_front);
 
-// if noone, then make new, else just overwrite the array with the top layer
+
 if(layer[0] == -1) layer = layer_create(-9999) else layer = layer[0];
 
 

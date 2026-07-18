@@ -50,13 +50,13 @@
         {"$GMRInstance":"v4","%Name":"inst_732DD526","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_732DD526","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":5.0,"x":580.0,"y":40.0,},
         {"$GMRInstance":"v4","%Name":"inst_5C2FC98C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C2FC98C","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":26.0,"scaleY":1.0,"x":60.0,"y":20.0,},
         {"$GMRInstance":"v4","%Name":"inst_3C447E83","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3C447E83","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":5.0,"x":0.0,"y":40.0,},
-      ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+      ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRTileLayer":"","%Name":"ts_crimson_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          -4,1,1,12,-4,1,1,12,-3,1,1,12,-3,1,4,12,1,1,12,-6,1,1,12,-4,1,3,12,1,5,-26,28,7,4,1,12,43,44,20,38,-24,
-          37,8,39,18,25,26,52,53,20,36,-24,-2147483648,8,46,18,34,35,25,26,20,36,-24,-2147483648,8,46,18,43,44,
-          34,35,20,36,-24,-2147483648,8,46,18,52,53,28,28,29,36,-24,-2147483648,4,46,27,28,28,-3,37,-25,-2147483648,
-          1,49,-3,37,-32,-2147483648,-17,45,1,41,-10,0,1,40,-3,45,-32,10,3,1,12,24,-5,1,1,12,-3,1,1,12,-3,1,4,
-          12,1,1,12,-3,1,1,12,-4,1,4,12,1,1,12,
+          -4,1,1,12,-4,1,1,12,-3,1,1,12,-3,1,4,12,1,1,12,-6,1,1,12,-4,1,3,12,1,5,-26,28,6,4,1,12,43,44,20,-26,
+          37,7,18,25,26,52,53,20,0,-24,-2147483648,8,0,18,34,35,25,26,20,0,-24,-2147483648,8,0,18,43,44,34,35,
+          20,0,-24,-2147483648,8,0,18,52,53,28,28,29,0,-23,-2147483648,-2,0,6,27,28,28,37,37,38,-24,-2147483648,
+          5,0,49,36,37,37,-32,-2147483648,-16,46,1,47,-11,0,4,40,45,46,46,-32,10,3,1,12,24,-5,1,1,12,-3,1,1,12,
+          -3,1,4,12,1,1,12,-3,1,1,12,-4,1,4,12,1,1,12,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crimson_fields_front","path":"tilesets/ts_crimson_fields_front/ts_crimson_fields_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_crimson_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -68,-2147483648,4,37,18,12,30,-4,12,10,30,12,20,45,0,0,37,18,12,30,-5,12,2,30,12,-7,-2147483648,2,37,
@@ -72,7 +72,7 @@
   "name":"rm_crimson_town_5",
   "parent":{
     "name":"Crimson Fields",
-    "path":"folders/Pièces/Crimson Fields.yy",
+    "path":"folders/Rooms/Crimson Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

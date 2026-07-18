@@ -24,21 +24,19 @@
         {"$GMRInstance":"v4","%Name":"inst_28C587A2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_28C587A2","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":5.0,"x":0.0,"y":60.0,},
         {"$GMRInstance":"v4","%Name":"inst_4EC293C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4EC293C3","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":26.0,"scaleY":1.0,"x":60.0,"y":40.0,},
         {"$GMRInstance":"v4","%Name":"inst_3931445E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3931445E","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":5.0,"x":580.0,"y":60.0,},
-      ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          -69,-2147483648,22,11,-2147483648,-2147483648,11,-2147483648,-2147483648,11,-2147483648,-2147483648,
-          11,-2147483648,-2147483648,11,-2147483648,-2147483648,11,-2147483648,-2147483648,11,-2147483648,-2147483648,
-          11,-8,-2147483648,-2,4,24,2,4,4,2,4,4,2,4,4,2,4,4,2,4,4,2,4,4,2,4,4,2,4,4,-5,-2147483648,-2,0,1,-2147483648,
-          -25,0,-5,-2147483648,-26,0,-7,-2147483648,1,0,-22,-2147483648,1,0,-6,-2147483648,3,11,0,0,-24,-2147483648,
-          6,11,-2147483648,-2147483648,4,4,2,-24,-2147483648,-2,0,3,2,4,4,-40,-2147483648,2,0,15,-4,9,-4,7,-4,
-          9,1,16,-9,-2147483648,-9,0,1,12,-3,13,1,18,-4,19,1,20,-3,13,1,14,-9,0,
+      ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRTileLayer":"","%Name":"ts_weird_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_weird_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+          -69,5,22,11,5,5,11,5,5,11,5,5,11,5,5,11,5,5,11,5,5,11,5,5,11,-8,5,-2,4,24,2,4,4,2,4,4,2,4,4,2,4,4,2,
+          4,4,2,4,4,2,4,4,2,4,4,-6,5,2,0,-2147483648,-24,0,-6,5,-26,0,-6,5,2,-2147483648,0,-22,-2147483648,2,0,
+          -2147483648,-5,5,3,11,0,0,-24,-2147483648,6,11,5,5,4,4,2,-24,-2147483648,-2,0,3,2,4,4,-40,-2147483648,
+          2,0,15,-4,9,-4,7,-4,9,1,16,-9,-2147483648,-10,5,-3,13,1,18,-4,19,1,20,-3,13,-10,5,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_weird_fields_front","path":"tilesets/ts_weird_fields_front/ts_weird_fields_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_weird_fields_3",
   "parent":{
     "name":"Weird Fields",
-    "path":"folders/Pièces/Weird Fields.yy",
+    "path":"folders/Rooms/Weird Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

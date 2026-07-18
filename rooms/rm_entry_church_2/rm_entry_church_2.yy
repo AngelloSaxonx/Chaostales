@@ -54,7 +54,7 @@
   "name":"rm_entry_church_2",
   "parent":{
     "name":"Entry",
-    "path":"folders/Pièces/Entry.yy",
+    "path":"folders/Rooms/Entry.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

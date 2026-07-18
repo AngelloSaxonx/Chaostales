@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Crimson Fields",
-    "path":"folders/Objets/Crimson Fields.yy",
+    "path":"folders/Objects/Crimson Fields.yy",
   },
   "parentObjectId":{
     "name":"Obj_hurtbox",

@@ -11,7 +11,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gameplay",
-    "path":"folders/Objets/Gameplay.yy",
+    "path":"folders/Objects/Gameplay.yy",
   },
   "parentObjectId":null,
   "persistent":true,

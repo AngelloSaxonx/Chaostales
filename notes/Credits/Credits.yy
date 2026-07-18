@@ -3,8 +3,8 @@
   "%Name":"Credits",
   "name":"Credits",
   "parent":{
-    "name":"Remarques",
-    "path":"folders/Remarques.yy",
+    "name":"Notes",
+    "path":"folders/Notes.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

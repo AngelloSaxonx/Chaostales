@@ -10,8 +10,8 @@
   "name":"Obj_grid",
   "overriddenProperties":[],
   "parent":{
-    "name":"Ennemies",
-    "path":"folders/Objets/Ennemies.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

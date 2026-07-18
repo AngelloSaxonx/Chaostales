@@ -23,8 +23,8 @@
   ],
   "name":"rm_titlescreen",
   "parent":{
-    "name":"Pièces",
-    "path":"folders/Pièces.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

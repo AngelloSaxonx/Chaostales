@@ -65,7 +65,7 @@
   "name":"rm_broken_temple",
   "parent":{
     "name":"Golden Temple",
-    "path":"folders/Pièces/Golden Temple.yy",
+    "path":"folders/Rooms/Golden Temple.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

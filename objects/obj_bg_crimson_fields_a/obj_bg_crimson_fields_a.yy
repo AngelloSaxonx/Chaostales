@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Background",
-    "path":"folders/Objets/Background.yy",
+    "path":"folders/Objects/Background.yy",
   },
   "parentObjectId":null,
   "persistent":false,

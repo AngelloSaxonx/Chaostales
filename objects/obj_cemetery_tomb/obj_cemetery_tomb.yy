@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Hallow Cemetery",
-    "path":"folders/Objets/Hallow Cemetery.yy",
+    "path":"folders/Objects/Hallow Cemetery.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -47,13 +47,13 @@
         {"$GMRInstance":"v4","%Name":"inst_4D3ABD95","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4D3ABD95","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.0,"scaleY":1.0,"x":60.0,"y":40.0,},
         {"$GMRInstance":"v4","%Name":"inst_39C46EE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39C46EE1","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":7.0,"x":0.0,"y":60.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"ts_crimson_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -2,1,1,12,-8,1,4,12,1,1,12,-24,1,1,12,-9,1,1,12,-3,1,1,12,-4,1,1,12,-3,1,5,12,1,1,25,26,-27,28,5,4,1,
-          1,34,35,-26,37,6,39,18,1,12,43,44,-26,-2147483648,6,46,18,12,33,52,53,-26,-2147483648,3,49,43,44,-29,
-          -2147483648,3,0,52,53,-30,-2147483648,-2,0,-32,-2147483648,-32,45,-32,10,9,12,1,1,12,1,1,12,1,12,-4,
-          1,4,12,1,1,12,-5,1,1,12,-3,1,1,12,-3,1,2,12,1,
+          1,34,35,-27,37,5,18,1,12,43,44,-21,0,-5,-2147483648,6,0,18,12,33,52,53,-26,-2147483648,3,49,43,44,-29,
+          -2147483648,3,0,52,53,-30,-2147483648,-2,0,-32,-2147483648,-13,46,6,45,46,45,46,46,45,-13,46,-32,10,
+          9,12,1,1,12,1,1,12,1,12,-4,1,4,12,1,1,12,-5,1,1,12,-3,1,1,12,-3,1,2,12,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crimson_fields_front","path":"tilesets/ts_crimson_fields_front/ts_crimson_fields_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"ts_crimson_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -101,-2147483648,6,37,18,21,12,20,45,-26,-2147483648,6,37,18,12,12,20,45,-24,-2147483648,8,16,46,48,
           18,12,30,20,45,-21,-2147483648,11,33,34,35,37,9,10,1,12,12,20,45,-21,-2147483648,5,42,43,44,37,18,-4,
           12,2,20,45,-19,-2147483648,8,32,33,42,43,44,37,18,30,-3,12,2,20,45,-19,-2147483648,13,41,42,51,52,53,
@@ -64,7 +64,7 @@
   "name":"rm_crimson_town_mage",
   "parent":{
     "name":"Crimson Fields",
-    "path":"folders/Pièces/Crimson Fields.yy",
+    "path":"folders/Rooms/Crimson Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

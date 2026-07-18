@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Diverse",
-    "path":"folders/Sprites/Areas/Diverse.yy",
+    "name":"Entry",
+    "path":"folders/Sprites/Areas/Entry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

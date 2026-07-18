@@ -44,8 +44,8 @@
   },
   "origin":7,
   "parent":{
-    "name":"Crimson_Camp",
-    "path":"folders/Sprites/Areas/Crimson Fields/Decor/Crimson_Camp.yy",
+    "name":"Crimson Camp",
+    "path":"folders/Sprites/Areas/Crimson Fields/Decor/Crimson Camp.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

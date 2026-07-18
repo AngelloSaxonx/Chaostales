@@ -39,7 +39,7 @@
         {"$GMRInstance":"v4","%Name":"inst_3CA948E6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3CA948E6","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":11.0,"scaleY":3.0,"x":420.0,"y":100.0,},
         {"$GMRInstance":"v4","%Name":"inst_68E5BCAD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_68E5BCAD","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":13.0,"scaleY":1.0,"x":20.0,"y":200.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"ts_weird_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_weird_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -3,5,1,11,-3,5,1,11,-3,5,1,11,-23,5,1,2,-3,4,1,2,-3,4,1,2,-22,5,1,11,-9,0,1,11,-20,5,13,4,2,0,0,-2147483648,
           -2147483648,0,-2147483648,-2147483648,0,0,2,4,-19,5,-4,0,-4,-2147483648,-5,0,7,11,5,5,11,5,5,11,-12,
           5,-2,0,-8,-2147483648,-3,0,7,2,4,4,2,4,4,2,-12,5,-2,0,-7,-2147483648,-11,0,-12,5,-2,0,-8,-2147483648,
@@ -51,7 +51,7 @@
   "name":"rm_weird_fields_1",
   "parent":{
     "name":"Weird Fields",
-    "path":"folders/Pièces/Weird Fields.yy",
+    "path":"folders/Rooms/Weird Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

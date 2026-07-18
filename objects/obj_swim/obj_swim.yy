@@ -8,8 +8,8 @@
   "name":"obj_swim",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objets",
-    "path":"folders/Objets.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,

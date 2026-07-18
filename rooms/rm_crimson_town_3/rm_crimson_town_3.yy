@@ -45,14 +45,14 @@
         {"$GMRInstance":"v4","%Name":"inst_DFDE54E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_DFDE54E","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":27.0,"scaleY":1.0,"x":40.0,"y":20.0,},
         {"$GMRInstance":"v4","%Name":"inst_62EBBF9C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_62EBBF9C","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":5.0,"x":0.0,"y":40.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"Tiles_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          2,1,12,-5,1,4,12,1,1,12,-8,1,1,12,-6,1,1,12,-5,1,2,25,26,-27,28,5,4,1,1,34,35,-26,37,7,39,18,1,12,12,
-          24,0,-25,-2147483648,2,46,18,-3,1,1,33,-26,-2147483648,6,46,18,1,1,43,44,-26,-2147483648,6,46,18,12,
-          1,52,53,-26,-2147483648,4,46,27,28,28,-28,-2147483648,-3,0,1,37,-44,-2147483648,-5,0,-2,45,-12,0,14,
-          45,43,44,0,0,-2147483648,43,44,24,33,33,24,43,44,-19,10,13,52,53,0,0,-2147483648,52,53,33,12,1,12,52,
+    {"$GMRTileLayer":"","%Name":"ts_crimson_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+          2,1,12,-5,1,4,12,1,1,12,-8,1,1,12,-6,1,1,12,-5,1,2,25,26,-27,28,5,4,1,1,34,35,-27,37,6,18,1,12,12,24,
+          0,-24,-2147483648,-2,0,1,18,-3,1,1,33,-26,-2147483648,6,0,18,1,1,43,44,-26,-2147483648,6,0,18,12,1,52,
+          53,-26,-2147483648,4,0,27,28,28,-28,-2147483648,4,0,36,37,37,-44,-2147483648,-5,0,2,45,47,-11,0,-2,45,
+          13,43,44,0,0,-2147483648,43,44,24,33,33,24,43,44,-19,10,13,52,53,0,0,-2147483648,52,53,33,12,1,12,52,
           53,-19,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crimson_fields_front","path":"tilesets/ts_crimson_fields_front/ts_crimson_fields_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
-    {"$GMRTileLayer":"","%Name":"Tiles_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
+    {"$GMRTileLayer":"","%Name":"ts_crimson_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_crimson_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -224,-2147483648,2,34,35,-27,-2147483648,5,37,18,12,43,44,-27,-2147483648,5,37,18,30,52,53,-27,-2147483648,
           8,37,18,12,-2147483648,-2147483648,13,14,15,-29,-2147483648,3,22,23,24,-27,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_crimson_fields_back","path":"tilesets/ts_crimson_fields_back/ts_crimson_fields_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
@@ -61,7 +61,7 @@
   "name":"rm_crimson_town_3",
   "parent":{
     "name":"Crimson Fields",
-    "path":"folders/Pièces/Crimson Fields.yy",
+    "path":"folders/Rooms/Crimson Fields.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

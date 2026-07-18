@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Title",
-    "path":"folders/Objets/Title.yy",
+    "path":"folders/Objects/Title.yy",
   },
   "parentObjectId":null,
   "persistent":false,
