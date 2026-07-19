@@ -1,13 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crimson_arena",
+  "%Name":"obj_crimson_statue_a",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_crimson_arena",
+  "name":"obj_crimson_statue_a",
   "overriddenProperties":[],
   "parent":{
     "name":"Crimson Fields",
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crimson_arena_front",
-    "path":"sprites/spr_crimson_arena_front/spr_crimson_arena_front.yy",
+    "name":"spr_crimson_statue_a",
+    "path":"sprites/spr_crimson_statue_a/spr_crimson_statue_a.yy",
   },
   "spriteMaskId":null,
   "visible":true,

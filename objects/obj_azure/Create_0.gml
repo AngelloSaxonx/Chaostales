@@ -82,12 +82,6 @@ scr_state_idle = function()
 		dash_spd = dash_distance/dash_time;
         dash_energy = dash_time;
         xspd = face * dash_spd;
-			if down_key
-			{
-				yspd = dash_spd + 10
-				xspd = 0
-				dash_energy = dash_time
-			}
         }
 		if place_meeting(x+xspd,y,obj_collision)
 		{

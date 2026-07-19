@@ -11,10 +11,14 @@
     {"name":"inst_6AB385C3","path":"rooms/rm_crimson_cemetery/rm_crimson_cemetery.yy",},
     {"name":"inst_1B459F84","path":"rooms/rm_crimson_cemetery/rm_crimson_cemetery.yy",},
     {"name":"inst_430411F3","path":"rooms/rm_crimson_cemetery/rm_crimson_cemetery.yy",},
+    {"name":"inst_6560E4E4","path":"rooms/rm_crimson_cemetery/rm_crimson_cemetery.yy",},
+    {"name":"inst_5519112B","path":"rooms/rm_crimson_cemetery/rm_crimson_cemetery.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"obj_main","depth":0,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_6560E4E4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6560E4E4","objectId":{"name":"obj_crimson_statue_a","path":"objects/obj_crimson_statue_a/obj_crimson_statue_a.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":540.0,"y":100.0,},
+        {"$GMRInstance":"v4","%Name":"inst_5519112B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5519112B","objectId":{"name":"obj_crimson_statue_a","path":"objects/obj_crimson_statue_a/obj_crimson_statue_a.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":600.0,"y":100.0,},
         {"$GMRInstance":"v4","%Name":"inst_430411F3","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_430411F3","objectId":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":4.0,"x":640.0,"y":20.0,},
       ],"layers":[],"name":"obj_main","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"obj_collision","depth":100,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
