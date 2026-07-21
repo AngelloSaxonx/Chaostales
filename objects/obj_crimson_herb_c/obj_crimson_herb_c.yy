@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crimson_herb_b",
+  "%Name":"obj_crimson_herb_c",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_crimson_herb_b",
+  "name":"obj_crimson_herb_c",
   "overriddenProperties":[],
   "parent":{
     "name":"Crimson Fields",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_crimson_herb_b",
-    "path":"sprites/spr_crimson_herb_b/spr_crimson_herb_b.yy",
+    "name":"spr_crimson_herb_c",
+    "path":"sprites/spr_crimson_herb_c/spr_crimson_herb_c.yy",
   },
   "spriteMaskId":null,
   "visible":true,
