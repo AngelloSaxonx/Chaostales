@@ -1,3 +1,3 @@
 target_x = 620;
 target_y = 100;
-target_rm = rm_crimson_cemetery;
+target_rm = rm_crimson_town_stock;

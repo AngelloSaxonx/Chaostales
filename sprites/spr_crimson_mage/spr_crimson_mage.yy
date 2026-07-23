@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Decor",
-    "path":"folders/Sprites/Areas/Crimson Fields/Decor.yy",
+    "name":"Crimson Mage",
+    "path":"folders/Sprites/Areas/Crimson Fields/Decor/Crimson Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

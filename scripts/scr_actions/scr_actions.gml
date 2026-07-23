@@ -13,12 +13,11 @@ function scr_text(_text) : scr_actions() constructor
 	}
 }
 
-function scr_speaker(_name, _sprite = undefined, _portrait = undefined, _background = undefined, _side = undefined) : scr_actions() constructor
+function scr_speaker(_name, _sprite = undefined, _portrait = undefined, _side = undefined) : scr_actions() constructor
 {
 	name = _name;
 	sprite = _sprite;
 	portrait = _portrait;
-	background = _background;
 	side = _side;
 	
 	act = function(_textbox)
@@ -27,9 +26,6 @@ function scr_speaker(_name, _sprite = undefined, _portrait = undefined, _backgro
 		
 		if !is_undefined(sprite)
 			_textbox.text_sprite = sprite;
-		
-		if !is_undefined(background)
-			_textbox.background_sprite = background;
 		
 		if !is_undefined(portrait)
 			_textbox.portrait_sprite = portrait;

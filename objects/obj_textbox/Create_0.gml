@@ -37,7 +37,6 @@ text_progress = 0;
 text_length = 0;
 
 portrait_sprite = -1;
-background_sprite = spr_textbox_background;
 portrait_width = sprite_get_width(spr_textbox_background);
 portrait_height = sprite_get_height(spr_textbox_background);
 portrait_side = PORTRAIT_SIDE.LEFT;

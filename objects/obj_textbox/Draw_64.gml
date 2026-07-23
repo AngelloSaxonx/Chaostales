@@ -24,7 +24,6 @@ if (sprite_exists(portrait_sprite))
 		_draw_portrait_xscale= -1;
 	}
 	
-	draw_sprite(background_sprite, 0, _draw_portrait_x + portrait_width / 2 - 3, _draw_portrait_y + portrait_height / 2 - 3);
 	
 	var _subming = 0;
 	if (!_finished)

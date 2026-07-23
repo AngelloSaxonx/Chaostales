@@ -8,9 +8,9 @@ if (inst != noone) && (inst.hittable == true) && (inst.from != id)
 	}
 }
 
-var player_inst = instance_place(x, y, obj_azure);
+var player_inst = instance_place(x, y, obj_floriel);
 if (player_inst != noone) && (player_inst.from == id) 
-&& (player_inst.sprite_index == spr_azure_ledge || player_inst.sprite_index == spr_azure_airdash)
+&& (player_inst.sprite_index == spr_floriel_ledge || player_inst.sprite_index == spr_floriel_round)
 {
 	instance_destroy()
 }

@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_azure_stab_hitbox",
-    "path":"sprites/spr_azure_stab_hitbox/spr_azure_stab_hitbox.yy",
+    "name":"spr_floriel_stab_hitbox",
+    "path":"sprites/spr_floriel_stab_hitbox/spr_floriel_stab_hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":false,
