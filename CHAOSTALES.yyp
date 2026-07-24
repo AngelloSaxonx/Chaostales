@@ -160,6 +160,7 @@
     {"id":{"name":"Obj_hitBox","path":"objects/Obj_hitBox/Obj_hitBox.yy",},},
     {"id":{"name":"Obj_hurtbox","path":"objects/Obj_hurtbox/Obj_hurtbox.yy",},},
     {"id":{"name":"obj_nakoling","path":"objects/obj_nakoling/obj_nakoling.yy",},},
+    {"id":{"name":"obj_pathfindable","path":"objects/obj_pathfindable/obj_pathfindable.yy",},},
     {"id":{"name":"obj_rouge_pastry","path":"objects/obj_rouge_pastry/obj_rouge_pastry.yy",},},
     {"id":{"name":"obj_stats","path":"objects/obj_stats/obj_stats.yy",},},
     {"id":{"name":"obj_swim","path":"objects/obj_swim/obj_swim.yy",},},

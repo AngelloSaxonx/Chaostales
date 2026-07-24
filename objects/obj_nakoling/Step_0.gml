@@ -7,29 +7,35 @@ case "Wandering":
 if (timer_rescout > 0) 
 {
 	timer_rescout--;
-	/*if (check_my_self = 1)
+	if (check_my_self = 1)
 	{
 		destinationX = x
 		destinationY = y
-	}*/
+	}
 }
 else
 {
-	sub_state = "Scouting"//choose("Scouting","Scouting","Scouting","Resting","Gathering")
+	sub_state = choose("Scouting","Scouting","Scouting","Resting","Gathering")
 	
 	switch (sub_state)
 	{
 		case "Scouting":
-			//if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			//check_my_self = 0;
+			check_my_self = 0;
+
 			randomise()
-			var roll = irandom(instance_number(obj_collision)-1)
-			var random_coll = instance_find(obj_collision,roll)
+			var roll = irandom(instance_number(obj_pathfindable)-1)
+			var random_coll = instance_find(obj_pathfindable,roll)
 			if (random_coll != noone){
 			destinationX = random_range(random_coll.LPoint,random_coll.RPoint)
-			destinationY = random_coll.YPoint
+			destinationY = random_coll.YPoint+1
+			if instance_place(destinationX,destinationY,obj_collision)
+			{
+				destinationY += 10
 			}
-			timer_rescout = 300;
+			
+			}
+			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{timer_rescout = 300;}
 		break;
 		
 		
@@ -45,7 +51,8 @@ else
 			destinationX = random_coll1.x
 			destinationY = random_coll1.bbox_bottom-1
 			}
-			timer_rescout = 600;
+			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{timer_rescout = 600;}
 		break;
 		case "Resting":
 			check_my_self = 0;
@@ -56,7 +63,8 @@ else
 			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
 			destinationY = random_coll2.bbox_bottom - 30
 			}
-			timer_rescout = 1000;
+			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{timer_rescout = 1000;}
 		break;
 	}
 }
@@ -130,7 +138,7 @@ if (mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 	(!collision_rectangle(x+xspd,
 	bbox_bottom,x+(xspd*pit_check_range),
 	bbox_bottom+pit_check_depth,
-	obj_collision,true,true))
+	obj_collision,true,true)) && (!point_distance(x,y,TargetX,TargetY) > spd)
 	{fall_down_value = 2}
 	
 	var _xx = path_get_point_x(path,fall_down_value)

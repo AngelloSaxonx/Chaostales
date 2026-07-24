@@ -15,3 +15,5 @@ mergable = 0;
 decor_xscale = 1;
 
 mask_index = sprite_index
+
+put_pathing = 0;
