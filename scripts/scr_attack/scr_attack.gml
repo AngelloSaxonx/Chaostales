@@ -1,7 +1,7 @@
 function Attack_stage_for_player(){
 	if (state != scr_wall_recovery)
 	{
-		var AtkX = x+(image_xscale*face)
+		var AtkX = x+((image_xscale*face)*20)
 		var AtkY = bbox_bottom-10
 	
 	

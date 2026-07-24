@@ -162,7 +162,7 @@ else //if (!on_ground) || (jump_key)
 			if sprite_index != jump_spr
 	        {
 				if (jump_key) {image_index = 0} // if you press jump
-				else {image_index = 1} // Otherwise act like falling
+				else {image_index = 2} // Otherwise act like falling
 			}
 			else
 			{
@@ -188,7 +188,7 @@ scr_state_swim = function()
     } else {
         xspd *= .98;
        if (xspd < 0.05) or (xspd > 0.05) xspd = 0;
-    }
+	}
 	
     //The variables setup
     var _ins = instance_place( x, y, obj_swim)
@@ -259,21 +259,31 @@ scr_wall_recovery = function()
 				ledge_fall_time = 20;
 				state = scr_state_idle;
 				ledge_in = false;
-				image_index = 0;
+				image_index = 2;
 				xspd = 0;
 			}
-			// if have time, staring backward and going forward
+			// if have time, still rolling
 			else
 			{
 				ledge_fall_time--;
-				image_index = 6.95
+				if (image_index >= 6)
+				{
+					image_index = 2
+				}
 				xspd = (face*move_spd[0])
 			}
 		}
 		//if land in time, landing animation
 		else if (place_meeting(x,y+1,obj_collision)) && (yspd >= 0)
 		{
-			if (image_index >= image_number-1)
+			if (ledge_fall_time > 0)
+			{
+			if (ledge_fall_time > 5) {ledge_fall_time = 5}
+			image_index = 6
+			ledge_fall_time--;
+			}
+			
+			if (image_index >= image_number)
 			{state = scr_state_idle; ledge_in = false;ledge_fall_time = 20;}
 			xspd = 0
 		}
