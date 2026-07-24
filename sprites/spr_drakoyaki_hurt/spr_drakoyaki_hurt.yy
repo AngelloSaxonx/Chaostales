@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Drakoyaki",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Drakoyaki.yy",
+    "name":"Movement",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Drakoyaki/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

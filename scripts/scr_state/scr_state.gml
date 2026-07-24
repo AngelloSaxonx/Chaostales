@@ -51,8 +51,8 @@ function scr_movement(_use_grav = true, _use_term_vel = true){
                 x += _pixel_check;
             }
             xspd = 0;
-        }
-    }
+		}
+	}
 	if (!in_transition)
 	{
     x += xspd;
@@ -63,17 +63,10 @@ function scr_movement(_use_grav = true, _use_term_vel = true){
     // gravity and terminal speed only in free state
     if _use_grav yspd += grav;
     if _use_term_vel && yspd > term_vel {yspd = term_vel};
-
-    var _sub_pixel = .5
+	
     if place_meeting( x, y + yspd, obj_collision)
     {
-
-        var _pixel_check = _sub_pixel * sign(yspd);
-        while !place_meeting( x, y + _pixel_check, obj_collision)
-        {
-            y += _pixel_check;
-        }
-
+		
         if yspd < 0
         {
             jump_hold_timer = 0;

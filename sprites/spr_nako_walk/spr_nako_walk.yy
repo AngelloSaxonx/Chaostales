@@ -28,8 +28,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"Nako",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nako.yy",
+    "name":"Movement",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nako/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

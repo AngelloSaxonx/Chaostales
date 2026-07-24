@@ -8,8 +8,8 @@
   "name":"obj_crimson_climb",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Climb",
+    "path":"folders/Objects/Climb.yy",
   },
   "parentObjectId":{
     "name":"obj_climb",

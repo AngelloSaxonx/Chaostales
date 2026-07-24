@@ -27,8 +27,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Rozelizart",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Rozelizart.yy",
+    "name":"Movement",
+    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Rozelizart/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
