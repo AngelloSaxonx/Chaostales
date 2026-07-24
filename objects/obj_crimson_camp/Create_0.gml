@@ -14,7 +14,7 @@ sprite_index = spr_crimson_camp_collision
 unique_mask = sprite_duplicate(sprite_index);
 
 var _left = 0;
-var _top = 0;
+var _top = 60;
 var _right = 199;
 var _bottom = 79;
 
@@ -23,12 +23,72 @@ sprite_collision_mask(unique_mask, false, bboxmode_manual, _left, _top, _right, 
 mask_index = unique_mask;
 LPoint = bbox_left+10
 RPoint = bbox_right-10
-YPoint = (bbox_top+60)-10
+YPoint = bbox_top-10
+grabableTop = YPoint+10
+}
+
+var coll1 = instance_create_depth(x,y,depth-1,obj_collision)
+with (coll1)
+{
+sprite_index = spr_crimson_camp_collision
+unique_mask = sprite_duplicate(sprite_index);
+
+var _left = 40;
+var _top = 40;
+var _right = 159;
+var _bottom = 59;
+
+sprite_collision_mask(unique_mask, false, bboxmode_manual, _left, _top, _right, _bottom, bboxkind_precise, 0);
+
+mask_index = unique_mask;
+LPoint = bbox_left+10
+RPoint = bbox_right-10
+YPoint = bbox_top-10
 grabableTop = YPoint+10
 }
 
 var coll2 = instance_create_depth(x,y,depth-1,obj_collision)
 with (coll2)
+{
+sprite_index = spr_crimson_camp_collision
+unique_mask = sprite_duplicate(sprite_index);
+
+var _left = 60;
+var _top = 20;
+var _right = 139;
+var _bottom = 39;
+
+sprite_collision_mask(unique_mask, false, bboxmode_manual, _left, _top, _right, _bottom, bboxkind_precise, 0);
+
+mask_index = unique_mask;
+LPoint = bbox_left+10
+RPoint = bbox_right-10
+YPoint = bbox_top-10
+grabableTop = YPoint+10
+}
+
+var coll3 = instance_create_depth(x,y,depth-1,obj_collision)
+with (coll3)
+{
+sprite_index = spr_crimson_camp_collision
+unique_mask = sprite_duplicate(sprite_index);
+
+var _left = 80;
+var _top = 0;
+var _right = 119;
+var _bottom = 19;
+
+sprite_collision_mask(unique_mask, false, bboxmode_manual, _left, _top, _right, _bottom, bboxkind_precise, 0);
+
+mask_index = unique_mask;
+LPoint = bbox_left+10
+RPoint = bbox_right-10
+YPoint = bbox_top-10
+grabableTop = YPoint+10
+}
+
+var coll4 = instance_create_depth(x,y,depth-1,obj_collision)
+with (coll4)
 {
 sprite_index = spr_crimson_camp_collision
 unique_mask = sprite_duplicate(sprite_index);

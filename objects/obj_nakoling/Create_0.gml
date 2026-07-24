@@ -1,3 +1,4 @@
+event_inherited()
 y = y-1
 idle_spr = spr_nakoling;
 walk_spr = spr_nakoling_walk;
@@ -14,7 +15,7 @@ xspd = 0;
 yspd = 0;
 grav = .275;
 max_grav = 4
-jspd = 5
+jspd = 6
 spd = 2
 should_jump = 0;
 y_ground = room_height
@@ -22,7 +23,7 @@ make_unstuck = 0;
 
 pit_check_range = 30 //pit_check_depth+ (pit_check_depth/2)
 pit_check_depth = 20
-jump_range = jspd*15
+jump_range = 60//jspd*15
 fall_range = spd*50
 detect_range = 120
 timer_rescout = 300;

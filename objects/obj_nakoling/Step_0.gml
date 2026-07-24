@@ -7,20 +7,21 @@ case "Wandering":
 if (timer_rescout > 0) 
 {
 	timer_rescout--;
-	if (check_my_self = 1)
+	/*if (check_my_self = 1)
 	{
 		destinationX = x
 		destinationY = y
-	}
+	}*/
 }
 else
 {
-	sub_state = choose("Scouting","Scouting","Scouting","Resting","Gathering")
+	sub_state = "Scouting"//choose("Scouting","Scouting","Scouting","Resting","Gathering")
 	
 	switch (sub_state)
 	{
 		case "Scouting":
-			check_my_self = 0;
+			//if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			//check_my_self = 0;
 			randomise()
 			var roll = irandom(instance_number(obj_collision)-1)
 			var random_coll = instance_find(obj_collision,roll)
@@ -28,11 +29,12 @@ else
 			destinationX = random_range(random_coll.LPoint,random_coll.RPoint)
 			destinationY = random_coll.YPoint
 			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 300;
-			}
+			timer_rescout = 300;
 		break;
+		
+		
+		
+		
 		case "Gathering":
 			check_my_self = 0;
 			randomise()
@@ -43,10 +45,7 @@ else
 			destinationX = random_coll1.x
 			destinationY = random_coll1.bbox_bottom-1
 			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 600;
-			}
+			timer_rescout = 600;
 		break;
 		case "Resting":
 			check_my_self = 0;
@@ -57,10 +56,7 @@ else
 			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
 			destinationY = random_coll2.bbox_bottom - 30
 			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 1000;
-			}
+			timer_rescout = 1000;
 		break;
 	}
 }
@@ -200,17 +196,18 @@ if (mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 #endregion
 //Finding
 #region
+var coll_jump_limit = collision_rectangle(x,bbox_bottom-(jump_range),x+(xspd*jump_range),bbox_bottom-1,obj_collision,true,true) 
 
 if (((point_in_rectangle(destinationX,destinationY,x-room_width,y_ground-detect_range,x+room_width,y_ground)
 && (place_meeting(x,y+5,obj_collision) || place_meeting(x,y,obj_swim)))
-|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0)
+|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0) && (!coll_jump_limit) 
 {
 	TargetX = destinationX
 	TargetY = destinationY
 }
 else
 {
-	var inst = instance_place(x,y+5,obj_collision)
+	var inst = instance_place(x,y+yspd+1,obj_collision)
 	if (inst)
 	{
 		//if destination isn't near, continue as usual
