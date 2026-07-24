@@ -36,5 +36,5 @@
     "path":"sprites/spr_floriel_stab_hitbox/spr_floriel_stab_hitbox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
