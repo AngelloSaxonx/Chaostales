@@ -21,26 +21,18 @@ else
 	{
 		case "Scouting":
 			check_my_self = 0;
-
 			randomise()
-			var roll = irandom(instance_number(obj_pathfindable)-1)
-			var random_coll = instance_find(obj_pathfindable,roll)
+			var roll = irandom(instance_number(obj_collision)-1)
+			var random_coll = instance_find(obj_collision,roll)
 			if (random_coll != noone){
 			destinationX = random_range(random_coll.LPoint,random_coll.RPoint)
-			destinationY = random_coll.YPoint+1
-			if instance_place(destinationX,destinationY,obj_collision)
+			destinationY = random_coll.YPoint
+			}
+			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
 			{
-				destinationY += 10
+				timer_rescout = 300;
 			}
-			
-			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{timer_rescout = 300;}
 		break;
-		
-		
-		
-		
 		case "Gathering":
 			check_my_self = 0;
 			randomise()
@@ -51,8 +43,10 @@ else
 			destinationX = random_coll1.x
 			destinationY = random_coll1.bbox_bottom-1
 			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{timer_rescout = 600;}
+			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{
+				timer_rescout = 600;
+			}
 		break;
 		case "Resting":
 			check_my_self = 0;
@@ -63,8 +57,10 @@ else
 			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
 			destinationY = random_coll2.bbox_bottom - 30
 			}
-			if mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{timer_rescout = 1000;}
+			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
+			{
+				timer_rescout = 1000;
+			}
 		break;
 	}
 }
@@ -128,7 +124,7 @@ else
 #endregion
 //Pathing
 #region
-if (mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
+if (mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 {
 	path_start(path,3,path_action_stop,true)
 	path_end()
@@ -138,7 +134,7 @@ if (mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 	(!collision_rectangle(x+xspd,
 	bbox_bottom,x+(xspd*pit_check_range),
 	bbox_bottom+pit_check_depth,
-	obj_collision,true,true)) && (!point_distance(x,y,TargetX,TargetY) > spd)
+	obj_collision,true,true))
 	{fall_down_value = 2}
 	
 	var _xx = path_get_point_x(path,fall_down_value)
@@ -204,18 +200,17 @@ if (mp_grid_path(Obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 #endregion
 //Finding
 #region
-var coll_jump_limit = collision_rectangle(x,bbox_bottom-(jump_range),x+(xspd*jump_range),bbox_bottom-1,obj_collision,true,true) 
 
 if (((point_in_rectangle(destinationX,destinationY,x-room_width,y_ground-detect_range,x+room_width,y_ground)
 && (place_meeting(x,y+5,obj_collision) || place_meeting(x,y,obj_swim)))
-|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0) && (!coll_jump_limit) 
+|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0)
 {
 	TargetX = destinationX
 	TargetY = destinationY
 }
 else
 {
-	var inst = instance_place(x,y+yspd+1,obj_collision)
+	var inst = instance_place(x,y+5,obj_collision)
 	if (inst)
 	{
 		//if destination isn't near, continue as usual

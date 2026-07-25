@@ -12,7 +12,7 @@ if (mergable == 1)
 	RPoint = bbox_right-10
 
 	YPoint = bbox_top-10
-	with (Obj_grid){mp_grid_add_instances(cell,obj_collision,true)}
+	with (obj_grid){mp_grid_add_instances(cell,obj_collision,true)}
 }
 
 with (obj_collision)
