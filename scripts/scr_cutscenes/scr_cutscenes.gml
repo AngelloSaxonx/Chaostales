@@ -16,7 +16,7 @@ global.cutscenes[$ "door"] =
 
 global.cutscenes[$ "tomb"] = 
 [
-	new scr_text("It's the tomb of a deceased Entity.")
+	new scr_text("It's the tomb of a deceased Monster.")
 ]
 
 //Crimson Fields
@@ -25,12 +25,6 @@ global.cutscenes[$ "crimson teapot"] =
 [
 	new scr_text("Teapots..."),
 	new scr_text("Meant for two lovers.")
-]
-
-global.cutscenes[$ "knight tomb"] = 
-[
-	new scr_text("2013 - There lies the Redcrust Knight's memories."),
-	new scr_text("Their feats shall be remember in pride.")
 ]
 
 global.cutscenes[$ "rouge pastry"] = 

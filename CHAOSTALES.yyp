@@ -165,7 +165,7 @@
     {"id":{"name":"obj_stats","path":"objects/obj_stats/obj_stats.yy",},},
     {"id":{"name":"obj_swim","path":"objects/obj_swim/obj_swim.yy",},},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},},
-    {"id":{"name":"obj_titlebg","path":"objects/obj_titlebg/obj_titlebg.yy",},},
+    {"id":{"name":"obj_titleoptions","path":"objects/obj_titleoptions/obj_titleoptions.yy",},},
     {"id":{"name":"obj_titlescreen","path":"objects/obj_titlescreen/obj_titlescreen.yy",},},
     {"id":{"name":"obj_transition","path":"objects/obj_transition/obj_transition.yy",},},
     {"id":{"name":"obj_warp","path":"objects/obj_warp/obj_warp.yy",},},
