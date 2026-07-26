@@ -34,5 +34,5 @@
     "path":"sprites/spr_crimson_camp/spr_crimson_camp.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -15,8 +15,8 @@
     "path":"folders/Objects/Party.yy",
   },
   "parentObjectId":{
-    "name":"Obj_hurtbox",
-    "path":"objects/Obj_hurtbox/Obj_hurtbox.yy",
+    "name":"obj_hurtbox",
+    "path":"objects/obj_hurtbox/obj_hurtbox.yy",
   },
   "persistent":true,
   "physicsAngularDamping":0.1,

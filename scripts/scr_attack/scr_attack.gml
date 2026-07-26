@@ -7,7 +7,7 @@ function Attack_stage_for_player(){
 	
 		if (attack_key) && (from == noone)
 		{
-			var atk = instance_create_depth(AtkX,AtkY,depth,Obj_hitBox)
+			var atk = instance_create_depth(AtkX,AtkY,depth,Obj_hitbox_floriel_stab)
 			atk.image_xscale = face
 			from = atk.id
 		}
