@@ -44,7 +44,6 @@ mask_index = unique_mask;
 LPoint = bbox_left+10
 RPoint = bbox_right-10
 YPoint = bbox_top-10
-grabableTop = YPoint+10
 }
 
 var coll2 = instance_create_depth(x,y,depth-1,obj_collision)
@@ -64,7 +63,6 @@ mask_index = unique_mask;
 LPoint = bbox_left+10
 RPoint = bbox_right-10
 YPoint = bbox_top-10
-grabableTop = YPoint+10
 }
 
 var coll3 = instance_create_depth(x,y,depth-1,obj_collision)
@@ -84,7 +82,6 @@ mask_index = unique_mask;
 LPoint = bbox_left+10
 RPoint = bbox_right-10
 YPoint = bbox_top-10
-grabableTop = YPoint+10
 }
 
 var coll4 = instance_create_depth(x,y,depth-1,obj_collision)
@@ -104,7 +101,6 @@ mask_index = unique_mask;
 LPoint = bbox_left+10
 RPoint = bbox_right-10
 YPoint = bbox_top-10
-grabableTop = YPoint+10
 }
 
 depth = 200;

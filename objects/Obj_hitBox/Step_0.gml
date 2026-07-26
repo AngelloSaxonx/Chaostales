@@ -1,10 +1,14 @@
 var inst = instance_place(x, y, Obj_hurtbox);
 
-if (inst != noone) && (inst.hittable == true) && (inst.from != id)
+if (inst != noone) && (inst.hittable == true) && (inst.from != id) && (hitted == 0)
 {
+	hitted = 1;
+	alarm[1] = 60
 	with(inst)
 	{
-		instance_destroy()
+		if (object_index == obj_nakoling)
+		{Health_bar--;}
+		else{instance_destroy()}
 	}
 }
 

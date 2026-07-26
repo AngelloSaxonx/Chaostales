@@ -87,13 +87,17 @@ scr_state_idle = function()
     scr_state_jump()
     scr_movement();
 	
-	var coll = instance_place(x+(face*move_spd[0]),y,obj_collision)
-	if ( (coll && (coll.grabableTop > bbox_top+1 && !instance_place(coll.x,coll.y-1,obj_collision))))
-	&& !(instance_place(x,y+1+yspd,obj_collision))
+	var coll = instance_place(x+(move_dir*move_spd[0]),y,obj_collision)
+	if ( (coll && (coll.bbox_top > bbox_top+1)))
+	&& !(instance_place(x,y+20,obj_collision))
 	{
-		state = scr_wall_recovery
-		xspd = 0;
-		yspd = 0;
+		var stop_if_up = collision_rectangle(coll.bbox_left,coll.bbox_top-1,coll.LPoint,coll.bbox_top,obj_collision,false,true)
+		if (stop_if_up == noone) || (stop_if_up != noone && stop_if_up == id)
+		{
+			state = scr_wall_recovery
+			xspd = 0;
+			yspd = 0;
+		}
 	}
 
 if on_ground

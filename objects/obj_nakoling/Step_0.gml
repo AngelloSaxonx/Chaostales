@@ -22,16 +22,14 @@ else
 		case "Scouting":
 			check_my_self = 0;
 			randomise()
-			var roll = irandom(instance_number(obj_collision)-1)
-			var random_coll = instance_find(obj_collision,roll)
+			var roll = irandom(instance_number(obj_pathfindable)-1)
+			var random_coll = instance_find(obj_pathfindable,roll)
 			if (random_coll != noone){
 			destinationX = random_range(random_coll.LPoint,random_coll.RPoint)
-			destinationY = random_coll.YPoint
+			destinationY = random_coll.YPoint+1
 			}
 			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 300;
-			}
+			{timer_rescout = 300;}
 		break;
 		case "Gathering":
 			check_my_self = 0;
@@ -80,7 +78,9 @@ break;
 // Decetion
 if (sprite_index != sleepy_spr)
 {
-var coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)
+var coll_see = noone
+if instance_exists(Target)
+{coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)}
 if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
 {
 	state = "Chasing";
@@ -159,10 +159,10 @@ if (mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 		else if (y > _yy+10)  // jump
 		{
 			var in_swim = instance_place( x, y, obj_swim)
-			var coll_see1 = collision_rectangle(x,bbox_top,x+(xspd*jump_range),bbox_bottom,obj_collision,true,true)
+			var coll_see1 = collision_rectangle(x,bbox_top-jump_range,x+(xspd*jump_range),bbox_bottom,obj_collision,true,true)
 			//check ground
 			if (((coll_see1 && coll_see1.mask_index == sprite_index) ||
-			(!collision_rectangle(x+xspd,bbox_bottom,x+(xspd*pit_check_range),bbox_bottom+pit_check_depth,obj_collision,true,true) )) 
+			(!collision_rectangle(x+(xspd*20),bbox_bottom,x+(xspd*pit_check_range),bbox_bottom+pit_check_depth,obj_collision,true,true) )) 
 			
 			//check water
 			&& !in_swim) || (in_swim && TargetY < y)
@@ -200,17 +200,33 @@ if (mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 #endregion
 //Finding
 #region
+var coll_land = destinationY;
+var inst2 = instance_place(x,y+max(2,yspd),obj_pathfindable)
+if (inst2)
+{
+	if (inst2.nearest != noone) && (xspd = -1)
+	{
+		coll_land = inst2.nearest.YPoint
+	}
+	else if (inst2.nearest2 != noone) && (xspd = 1)
+	{
+		coll_land = inst2.nearest2.YPoint
+	}
+}
+var coll_jump_limit = collision_rectangle(x,bbox_bottom-(jump_range),x+(xspd*jump_range),bbox_bottom-1,obj_collision,true,true) 
 
-if (((point_in_rectangle(destinationX,destinationY,x-room_width,y_ground-detect_range,x+room_width,y_ground)
+if (mp_grid_path(obj_grid.cell,path,x,y,destinationX,destinationY-1,true) && 
+(destinationY > y || (destinationY <= y && coll_land < y-(jump_range/3)))) ||
+((((point_in_rectangle(destinationX,destinationY,x-room_width,y_ground-detect_range,x+room_width,y_ground)
 && (place_meeting(x,y+5,obj_collision) || place_meeting(x,y,obj_swim)))
-|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0)
+|| (destinationY-1 >= y_ground-1)) || timer_rescout <= 0) && (!coll_jump_limit))
 {
 	TargetX = destinationX
 	TargetY = destinationY
 }
 else
 {
-	var inst = instance_place(x,y+5,obj_collision)
+	var inst = instance_place(x,y+max(2,yspd),obj_pathfindable)
 	if (inst)
 	{
 		//if destination isn't near, continue as usual
@@ -219,15 +235,15 @@ else
 		//Checking Left
 		if (xspd == 1) //&& ((inst.nearest != noone) && (inst.nearest.YPoint-jump_range < destinationY))
 		{
-			if (inst.nearest != noone) && (inst.RPoint - inst.nearest.LPoint < jump_range)
+			if (inst.nearest2 != noone) && (abs(inst.RPoint - inst.nearest2.LPoint) < jump_range)
 			{
-				TargetX = inst.nearest.LPoint
-				TargetY = inst.nearest.YPoint
+				TargetX = inst.nearest2.LPoint
+				TargetY = inst.nearest2.YPoint
 			}
 			else
 			{
-				TargetX = inst.x//LPoint
-				TargetY = inst.bbox_top//YPoint
+				TargetX = inst.RPoint
+				TargetY = inst.YPoint
 			}
 		}
 		else
@@ -236,15 +252,15 @@ else
 		//Checking Right
 		if (xspd == -1) //&& ((inst.nearest2 != noone) && (inst.nearest2.YPoint-jump_range < destinationY))
 		{
-			if (inst.nearest2 != noone) && (inst.LPoint - inst.nearest2.RPoint < jump_range) 
+			if (inst.nearest != noone) && (abs(inst.LPoint - inst.nearest.RPoint) < jump_range) 
 			{
-				TargetX = inst.nearest2.RPoint
-				TargetY = inst.nearest2.YPoint
+				TargetX = inst.nearest.RPoint
+				TargetY = inst.nearest.YPoint
 			}
 			else
 			{
-				TargetX = inst.x//RPoint
-				TargetY = inst.bbox_top//YPoint
+				TargetX = inst.LPoint
+				TargetY = inst.YPoint
 			}
 		}
 		else
@@ -391,6 +407,11 @@ else
 depth = -300;
 
 if (bbox_top > room_height)
+{
+	instance_destroy()
+}
+
+if (Health_bar <= 0)
 {
 	instance_destroy()
 }
