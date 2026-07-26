@@ -1,4 +1,4 @@
-draw_self()
+/*draw_self()
 if (nearest2 != noone)
 {
 	draw_line(nearest2.LPoint,nearest2.YPoint,RPoint,YPoint)

@@ -78,7 +78,9 @@ break;
 // Decetion
 if (sprite_index != sleepy_spr)
 {
-var coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)
+var coll_see = noone
+if instance_exists(Target)
+{coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)}
 if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
 {
 	state = "Chasing";
@@ -202,16 +204,20 @@ var coll_land = destinationY;
 var inst2 = instance_place(x,y+max(2,yspd),obj_pathfindable)
 if (inst2)
 {
-	if (inst2.nearest != noone)
+	if (inst2.nearest != noone) && (xspd = -1)
 	{
 		coll_land = inst2.nearest.YPoint
+	}
+	else if (inst2.nearest2 != noone) && (xspd = 1)
+	{
+		coll_land = inst2.nearest2.YPoint
 	}
 }
 var coll_jump_limit = collision_rectangle(x,bbox_bottom-(jump_range),x+(xspd*jump_range),bbox_bottom-1,obj_collision,true,true) 
 
-if (mp_grid_path(obj_grid.cell,path,x,y,destinationX,destinationY-1,true) && (destinationY > y || (destinationY <= y && coll_land < y-(jump_range/3)))) ||
+if (mp_grid_path(obj_grid.cell,path,x,y,destinationX,destinationY-1,true) && 
+(destinationY > y || (destinationY <= y && coll_land < y-(jump_range/3)))) ||
 ((((point_in_rectangle(destinationX,destinationY,x-room_width,y_ground-detect_range,x+room_width,y_ground)
-
 && (place_meeting(x,y+5,obj_collision) || place_meeting(x,y,obj_swim)))
 || (destinationY-1 >= y_ground-1)) || timer_rescout <= 0) && (!coll_jump_limit))
 {
@@ -401,6 +407,11 @@ else
 depth = -300;
 
 if (bbox_top > room_height)
+{
+	instance_destroy()
+}
+
+if (Health_bar <= 0)
 {
 	instance_destroy()
 }

@@ -1,4 +1,5 @@
 event_inherited()
+Health_bar = 4
 y = y-1
 idle_spr = spr_nakoling;
 walk_spr = spr_nakoling_walk;

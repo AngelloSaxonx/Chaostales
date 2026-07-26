@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_4361E7E4","path":"rooms/Test/Test.yy",},
     {"name":"inst_2F41F861","path":"rooms/Test/Test.yy",},
-    {"name":"inst_3F8E9D48","path":"rooms/Test/Test.yy",},
     {"name":"inst_148E5418","path":"rooms/Test/Test.yy",},
     {"name":"inst_4D4D4875","path":"rooms/Test/Test.yy",},
     {"name":"inst_64514EE9","path":"rooms/Test/Test.yy",},
@@ -17,6 +16,7 @@
     {"name":"inst_5E5AE31A","path":"rooms/Test/Test.yy",},
     {"name":"inst_12173255","path":"rooms/Test/Test.yy",},
     {"name":"inst_15C85F7B","path":"rooms/Test/Test.yy",},
+    {"name":"inst_3F8E9D48","path":"rooms/Test/Test.yy",},
   ],
   "isDnd":false,
   "layers":[
