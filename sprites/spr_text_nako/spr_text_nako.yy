@@ -26,7 +26,7 @@
   "origin":4,
   "parent":{
     "name":"Dialogue",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nako/Dialogue.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Nako/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"rozelizart_bite",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Rozelizart/Movement/rozelizart_bite.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Rozelizart/Movement/rozelizart_bite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_hallow_cemetery_front",
-    "path":"sprites/spr_hallow_cemetery_front/spr_hallow_cemetery_front.yy",
+    "name":"spr_cemetery_front",
+    "path":"sprites/spr_cemetery_front/spr_cemetery_front.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

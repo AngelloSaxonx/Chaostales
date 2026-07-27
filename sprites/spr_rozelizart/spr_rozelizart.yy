@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Movement",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Rozelizart/Movement.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Rozelizart/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

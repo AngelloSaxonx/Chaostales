@@ -34,9 +34,9 @@ else
 		case "Gathering":
 			check_my_self = 0;
 			randomise()
-			var roll1 = irandom(instance_number(obj_crimson_bush)-1)
+			var roll1 = irandom(instance_number(obj_scarlet_bush)-1)
 			checker = roll1;
-			var random_coll1 = instance_find(obj_crimson_bush,roll1)
+			var random_coll1 = instance_find(obj_scarlet_bush,roll1)
 			if (random_coll1 != noone){
 			destinationX = random_coll1.x
 			destinationY = random_coll1.bbox_bottom-1
@@ -49,8 +49,8 @@ else
 		case "Resting":
 			check_my_self = 0;
 			randomise()
-			var roll2 = irandom(instance_number(obj_crimson_camp)-1)
-			var random_coll2 = instance_find(obj_crimson_camp,roll2)
+			var roll2 = irandom(instance_number(obj_scarlet_camp)-1)
+			var random_coll2 = instance_find(obj_scarlet_camp,roll2)
 			if (random_coll2 != noone){
 			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
 			destinationY = random_coll2.bbox_bottom - 30

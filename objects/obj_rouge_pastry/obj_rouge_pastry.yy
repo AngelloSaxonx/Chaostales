@@ -9,8 +9,8 @@
   "name":"obj_rouge_pastry",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crimson Fields",
-    "path":"folders/Objects/Crimson Fields.yy",
+    "name":"Scarlet Fields",
+    "path":"folders/Objects/Scarlet Fields.yy",
   },
   "parentObjectId":null,
   "persistent":false,

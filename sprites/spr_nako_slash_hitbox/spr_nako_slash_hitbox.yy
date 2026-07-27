@@ -45,7 +45,7 @@
   "origin":7,
   "parent":{
     "name":"Effect",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nako/Effect.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Nako/Effect.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

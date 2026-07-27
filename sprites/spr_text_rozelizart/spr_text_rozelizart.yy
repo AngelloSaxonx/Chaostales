@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dialogue",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Rozelizart/Dialogue.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Rozelizart/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

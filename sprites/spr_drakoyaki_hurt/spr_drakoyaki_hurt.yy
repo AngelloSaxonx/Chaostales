@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Movement",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Drakoyaki/Movement.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Drakoyaki/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

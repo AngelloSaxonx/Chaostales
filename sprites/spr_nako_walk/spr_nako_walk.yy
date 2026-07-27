@@ -29,7 +29,7 @@
   "origin":7,
   "parent":{
     "name":"Movement",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nako/Movement.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Nako/Movement.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

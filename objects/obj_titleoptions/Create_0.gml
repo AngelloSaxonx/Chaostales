@@ -6,9 +6,8 @@ option_space = 16;
 
 option[0] = "Play Game";
 option[1] = "Settings";
-option[2] = "Achievements";
-option[3] = "Credits";
-option[4] = "Close Game";
+option[2] = "Bonus";
+option[3] = "Close Game";
 
 option_lenght = array_length(option);
 pos = 0;

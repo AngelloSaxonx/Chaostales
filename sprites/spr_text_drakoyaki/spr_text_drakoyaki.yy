@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Dialogue",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Drakoyaki/Dialogue.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Drakoyaki/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

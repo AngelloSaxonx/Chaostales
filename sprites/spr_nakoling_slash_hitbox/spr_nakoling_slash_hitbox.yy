@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Effect",
-    "path":"folders/Sprites/Characters/Crimson Fields/Enemies/Nakoling/Effect.yy",
+    "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Nakoling/Effect.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
