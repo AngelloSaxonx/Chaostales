@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_hitbox_floriel_stab",
+  "%Name":"Obj_hitbox_nakoling_slash",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_hitbox_floriel_stab",
+  "name":"Obj_hitbox_nakoling_slash",
   "overriddenProperties":[],
   "parent":{
     "name":"Hitboxes",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_floriel_stab_hitbox",
-    "path":"sprites/spr_floriel_stab_hitbox/spr_floriel_stab_hitbox.yy",
+    "name":"spr_nakoling_slash_hitbox",
+    "path":"sprites/spr_nakoling_slash_hitbox/spr_nakoling_slash_hitbox.yy",
   },
   "spriteMaskId":null,
   "visible":true,

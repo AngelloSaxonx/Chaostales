@@ -32,9 +32,3 @@ if (inst != noone) && (inst.hittable == true)
 		instance_destroy()
 	}
 }
-
-if (player_inst != noone)
-&& (player_inst.sprite_index == spr_floriel_ledge || player_inst.sprite_index == spr_floriel_round)
-{
-	instance_destroy()
-}

@@ -68,28 +68,36 @@ break;
 
 
 case "Chasing":
+if instance_exists(Target)
+{
 destinationX = Target.x
 destinationY = Target.y
+}
+else
+{
+destinationX = x
+destinationY = y
+}
 sub_state = "Scouting";
 break;
 
 }
 
 // Decetion
-if (sprite_index != sleepy_spr)
-{
 var coll_see = noone
 if instance_exists(Target)
 {coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)}
-if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
+/*if (sprite_index != sleepy_spr)
 {
+if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
+{*/
 	state = "Chasing";
-}
+/*}
 else
 {
 	state = "Wandering";
 }
-}
+}*/
 
 #endregion
 // Checking Y Ground
@@ -319,7 +327,7 @@ if (instance_place(x,y+1+yspd,obj_collision))
 	//if stuck while jumping, stop yspd once for Grav to work
 	else {if (make_unstuck == 0){yspd = 0; make_unstuck = 1;}}
 	
-	if (can_jump == 0) && (coll5)
+	if (can_jump == 0) && (coll5) && (LeapX == 0)
 	{
 	can_jump = 1;
 	}
@@ -335,47 +343,104 @@ if (should_jump == 1) && (can_jump == 1) && (place_meeting(x,y+2,obj_collision) 
 	yspd = -jspd
 	can_jump = 0;
 }
-
+else
+if (LeapX != 0) && (can_jump == 1)
+{
+	yspd = -(jspd/2);
+	can_jump = 0;
+}
 //Xcoll
 if place_meeting(x+(xspd*spd),y,obj_collision)
 {
 	xspd = 0;
 }
 //Movement
-x += xspd*spd
+if (LeapX == 0)
+{x += xspd*spd}
+else
+{
+	xspd = 0;
+	x += LeapX
+}
 y += yspd
 #endregion
 
+//Attack
+if collision_circle(x,y,detect_range/2.5,Target,false,true) && (!coll_see)
+{
+	if instance_place(x+LeapX,y,obj_collision) || 
+	(!collision_rectangle(bbox_left+(20*image_xscale),y,bbox_right+(20*image_xscale),y+10,
+	obj_collision,false,true) && instance_place(x,y+2,obj_collision))
+	{image_xscale = -image_xscale}
+	LeapX = (image_xscale*spd);
+}
+else
+{
+	if instance_exists(Target) || 
+	(!instance_exists(Target) && place_meeting(x,y+2,obj_collision))
+	{LeapX = 0;can_jump = 1;}
+}
+
+var AtkX = x+(image_xscale*10)
+var AtkY = bbox_bottom-10
+if (LeapX != 0 && image_index > 2 && image_index < 2.2)
+{
+	if (from == noone)
+	{
+		var atk = instance_create_depth(AtkX,AtkY,depth,Obj_hitbox_nakoling_slash)
+		atk.image_xscale = image_xscale
+		from = atk.id
+	}
+}
+if (from != noone) {
+	if instance_exists(from) {from.x = AtkX+LeapX; from.y = AtkY+yspd; from.image_xscale = image_xscale}
+	else {from = noone}
+};
+	
 //Animation
 if (xspd != 0)
 {
 	image_xscale = xspd
 }
-	
 if (yspd != 0) && (!instance_place(x,y+1+yspd,obj_collision))
 {
-	if (sprite_index != jump_spr)
+	if (LeapX == 0)
 	{
-		image_index = 0
-	}
+		if (sprite_index != jump_spr)
+		{
+			image_index = 0
+		}
 	
-	if (yspd < 0)
-	{
-		image_index = 0;
+		if (yspd < 0)
+		{
+			image_index = 0;
+		}
+		else
+		{
+			if (image_index >= image_number - 1)
+			{
+				image_speed = 0;
+			}
+		}
+		sprite_index = jump_spr
 	}
 	else
 	{
+		if (sprite_index != attack_spr)
+		{
+			image_index = 0
+		}
 		if (image_index >= image_number - 1)
 		{
 			image_speed = 0;
 		}
+		sprite_index = attack_spr
 	}
-	sprite_index = jump_spr
 }
 else
 {
 	image_speed = 1;
-	if (xspd != 0)
+	if (xspd != 0) || (LeapX != 0)
 	{
 		if (sprite_index != walk_spr)
 		{
@@ -403,6 +468,7 @@ else
 		}
 	}
 }
+
 
 depth = -300;
 
