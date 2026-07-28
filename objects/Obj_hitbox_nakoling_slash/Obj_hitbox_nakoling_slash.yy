@@ -36,5 +36,5 @@
     "path":"sprites/spr_nakoling_slash_hitbox/spr_nakoling_slash_hitbox.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -338,16 +338,18 @@ else
 }
 
 //jumping
-if (should_jump == 1) && (can_jump == 1) && (place_meeting(x,y+2,obj_collision) || place_meeting(x,y,obj_swim))
+if (place_meeting(x,y+2,obj_collision) || place_meeting(x,y,obj_swim))
 {
-	yspd = -jspd
-	can_jump = 0;
-}
-else
-if (LeapX != 0) && (can_jump == 1)
-{
-	yspd = -(jspd/2);
-	can_jump = 0;
+	if (should_jump == 1) && (can_jump == 1)
+	{
+		yspd = -jspd
+		can_jump = 0;
+	}
+	else if (LeapX != 0) && (can_jump == 1)
+	{
+		yspd = -(jspd/2);
+		can_jump = 0;
+	}
 }
 //Xcoll
 if place_meeting(x+(xspd*spd),y,obj_collision)
