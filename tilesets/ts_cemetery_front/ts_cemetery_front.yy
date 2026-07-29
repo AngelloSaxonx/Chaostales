@@ -1,19 +1,19 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_hallow_cemetery_front",
+  "%Name":"ts_cemetery_front",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_hallow_cemetery_front",
+  "name":"ts_cemetery_front",
   "out_columns":5,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Hallow Cemetery",
-    "path":"folders/Tile sets/Hallow Cemetery.yy",
+    "name":"Autumn Cemetery",
+    "path":"folders/Tile sets/Autumn Cemetery.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

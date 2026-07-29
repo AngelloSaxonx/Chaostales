@@ -8,8 +8,8 @@
   "name":"obj_cemetery_statue_a",
   "overriddenProperties":[],
   "parent":{
-    "name":"Hallow Cemetery",
-    "path":"folders/Objects/Hallow Cemetery.yy",
+    "name":"Autumn Cemetery",
+    "path":"folders/Objects/Autumn Cemetery.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -102,7 +102,7 @@
           -8,-2147483648,1,0,-23,-2147483648,-2,0,2,8,9,-5,-2147483648,1,0,-22,-2147483648,-2,0,2,18,19,-5,-2147483648,
           1,0,-22,-2147483648,-2,0,2,18,19,-5,-2147483648,1,0,-22,-2147483648,-2,0,-4,-2147483648,-10,8,-20,-2147483648,
           -6,0,-7,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_hallow_cemetery_front","path":"tilesets/ts_hallow_cemetery_front/ts_hallow_cemetery_front.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_cemetery_front","path":"tilesets/ts_cemetery_front/ts_cemetery_front.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_cemetery_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_cemetery_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":32,"TileCompressedData":[
           1,20,-7,10,1,6,-4,10,1,20,-3,10,1,7,-3,10,4,20,10,10,20,-3,10,3,7,10,6,-5,10,3,7,10,1,-25,2,-2,10,1,
           20,-3,10,1,11,-25,-2147483648,-5,10,2,20,11,-25,-2147483648,1,6,-5,10,1,11,-5,-2147483648,1,0,-19,12,
@@ -122,7 +122,7 @@
           -2147483648,0,0,-2147483648,-2147483648,13,-5,-2147483648,-16,0,1,-2147483648,-3,0,-6,-2147483648,1,
           13,-5,-2147483648,1,0,-11,12,8,4,22,22,5,-2147483648,-2147483648,0,0,-6,-2147483648,1,13,-5,-2147483648,
           -12,22,4,23,20,7,21,-10,22,1,23,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_hallow_cemetery_front","path":"tilesets/ts_hallow_cemetery_front/ts_hallow_cemetery_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_cemetery_front","path":"tilesets/ts_cemetery_front/ts_cemetery_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_entry_1","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_entry_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":32,"TileCompressedData":[
           -347,-2147483648,-2,0,-3,-2147483648,-3,0,-29,-2147483648,2,10,11,-30,-2147483648,2,20,21,-30,-2147483648,
           2,1,31,-30,-2147483648,2,1,31,-30,-2147483648,2,10,11,-30,-2147483648,2,20,21,-5,0,-25,-2147483648,-5,
@@ -134,8 +134,8 @@
   ],
   "name":"rm_cemetery_1",
   "parent":{
-    "name":"Hallow Cemetery",
-    "path":"folders/Rooms/Hallow Cemetery.yy",
+    "name":"Autumn Cemetery",
+    "path":"folders/Rooms/Autumn Cemetery.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

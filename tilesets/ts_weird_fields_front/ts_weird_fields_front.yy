@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_weird_fields_front",
-    "path":"sprites/spr_weird_fields_front/spr_weird_fields_front.yy",
+    "name":"spr_weird_fields",
+    "path":"sprites/spr_weird_fields/spr_weird_fields.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

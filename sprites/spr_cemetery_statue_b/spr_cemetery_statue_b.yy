@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Decors",
-    "path":"folders/Sprites/Areas/Hallow Cemetery/Decors.yy",
+    "path":"folders/Sprites/Areas/Autumn Cemetery/Decors.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

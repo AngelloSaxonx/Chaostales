@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tiles",
-    "path":"folders/Sprites/Areas/Hallow Cemetery/Tiles.yy",
+    "path":"folders/Sprites/Areas/Autumn Cemetery/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

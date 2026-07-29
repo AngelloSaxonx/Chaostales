@@ -61,13 +61,13 @@
           5,268435465,9,22,5,0,-4,-2147483648,-2,0,-4,-2147483648,7,0,4,22,10,11,27,17,-8,0,6,16,27,13,10,20,11,
           -12,0,5,13,6,10,11,0,-9,-2147483648,-2,0,6,13,10,10,11,0,-2147483648,-10,0,18,13,10,7,21,16,26,27,26,
           27,26,27,26,27,26,27,17,23,7,-5,10,1,7,-3,10,4,20,10,10,20,-3,10,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_hallow_cemetery_front","path":"tilesets/ts_hallow_cemetery_front/ts_hallow_cemetery_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_cemetery_front","path":"tilesets/ts_cemetery_front/ts_cemetery_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_cemetery_save_1",
   "parent":{
-    "name":"Hallow Cemetery",
-    "path":"folders/Rooms/Hallow Cemetery.yy",
+    "name":"Autumn Cemetery",
+    "path":"folders/Rooms/Autumn Cemetery.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
