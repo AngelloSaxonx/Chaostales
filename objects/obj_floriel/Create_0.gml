@@ -1,5 +1,5 @@
 event_inherited()
-
+Health_bar = 1//obj_stats.hp
 test_text = 0;
 scr_contol_setup()
 
@@ -13,11 +13,13 @@ dash_air_spr = spr_floriel_round;
 swim_spr = spr_floriel_swim;
 attack_spr[0] = spr_floriel_stab_final
 attack_spr[1] = spr_floriel_stab_body
-attack_spr[2] = spr_floriel_stab_dagger
+attack_spr[2] = spr_floriel_stab_right_arm
 attack_spr[3] = spr_floriel_stab_left_arm
 image_moving = 0;
 condition_frame = 0
-
+hurted = 0;
+knockX = 0;
+knockY = 0;
 face = 1;
 
 run_type = 0;
@@ -55,6 +57,20 @@ double_jump = true;
 
 scr_state_idle = function()
 {
+	if (sprite_index == spr_floriel_hurt) && (hurted == 0)
+	{
+		hurted = 1
+		alarm[0] = 40;
+		xspd = knockX;
+		yspd = knockY;
+	}
+	
+	if (hurted == 1) && (place_meeting(x,y+yspd,obj_collision))
+	{sprite_index = idle_spr;hurted = 0;knockX = 0;knockY = 0;}
+	
+	
+	if (hurted == 0)
+	{
     move_dir = right_key - left_key;
 
     if move_dir != 0 {face = move_dir};
@@ -67,7 +83,7 @@ scr_state_idle = function()
         xspd *= .98;
        if (xspd < 0.05) or (xspd > 0.05) xspd = 0;
     }
-
+	}
 
     //Attack
 	#region
@@ -83,8 +99,10 @@ scr_state_idle = function()
 	{
 		state = scr_state_swim;
 	}
-
+	if (hurted == 0)
+	{
     scr_state_jump()
+	}
     scr_movement();
 	
 	var coll = instance_place(x+(move_dir*move_spd[0]),y,obj_collision)
@@ -100,82 +118,84 @@ scr_state_idle = function()
 		}
 	}
 
-if on_ground
-    //Idle
-{
-	image_speed = 1
-	if abs(xspd) == 0 
-    {
-		if (from != noone)
-		{
-			if sprite_index != attack_spr[0]
-	        {image_index = 0}
-			sprite_index = attack_spr[0]
-		}
-		else
-		{
-			if sprite_index != idle_spr
-	        {image_index = 0}
-			sprite_index = idle_spr
-		}
-	}
-	//Run & Dash
-	else if abs(xspd) >= move_spd[1] 
+	if (hurted == 0)
 	{
-//<<<<<<< Updated upstream
-			
-		if sprite_index != run_spr{
-//=======
-		//Dash
-		if !on_ground
-		{
-		if sprite_index != dash_air_spr
-//>>>>>>> Stashed changes
-	    {image_index = 0}
-		sprite_index = dash_air_spr;
-		}
-		//Run
-		else{
-		if sprite_index != run_spr
-	    {image_index = 0}
-		sprite_index = run_spr;
-		}
-		}
-	}
-	//Walk
-	else 
+	if on_ground
+	//Idle
 	{
-		if sprite_index != walk_spr
-	    {image_index = 0}
-		sprite_index = walk_spr
-	};
-}
-//Jump
-else //if (!on_ground) || (jump_key)
-{    
-//Airdash
-	image_speed = 1
-	if abs(xspd) >= move_spd[1] 
-	    {if sprite_index != dash_air_spr 
-	        {image_index = 0}
-	    sprite_index = dash_air_spr;
-		}
-	//Jump
-	else if sprite_index != dash_air_spr 
+		image_speed = 1
+		if abs(xspd) == 0 
 	    {
-			if sprite_index != jump_spr
-	        {
-				if (jump_key) {image_index = 0} // if you press jump
-				else {image_index = 2} // Otherwise act like falling
+			if (from != noone)
+			{
+				if sprite_index != attack_spr[0]
+		        {image_index = 0}
+				sprite_index = attack_spr[0]
 			}
 			else
 			{
-				if (jump_key_pressed && can_jump) {image_index = 0} //Double jumping refresh animation
+				if sprite_index != idle_spr
+		        {image_index = 0}
+				sprite_index = idle_spr
 			}
-			sprite_index = jump_spr
 		}
-}
-
+		//Run & Dash
+		else if abs(xspd) >= move_spd[1] 
+		{
+	//<<<<<<< Updated upstream
+			
+			if sprite_index != run_spr{
+	//=======
+			//Dash
+			if !on_ground
+			{
+			if sprite_index != dash_air_spr
+	//>>>>>>> Stashed changes
+		    {image_index = 0}
+			sprite_index = dash_air_spr;
+			}
+			//Run
+			else{
+			if sprite_index != run_spr
+		    {image_index = 0}
+			sprite_index = run_spr;
+			}
+			}
+		}
+		//Walk
+		else 
+		{
+			if sprite_index != walk_spr
+		    {image_index = 0}
+			sprite_index = walk_spr
+		};
+	}
+	//Jump
+	else
+	{    
+	//Airdash
+		image_speed = 1
+		if abs(xspd) >= move_spd[1] 
+		    {if sprite_index != dash_air_spr 
+		        {image_index = 0}
+		    sprite_index = dash_air_spr;
+			}
+		//Jump
+		else if sprite_index != dash_air_spr 
+		    {
+				if sprite_index != jump_spr
+		        {
+					if (jump_key) {image_index = 0} // if you press jump
+					else {image_index = 2} // Otherwise act like falling
+				}
+				else
+				{
+					if (jump_key_pressed && can_jump) {image_index = 0} //Double jumping refresh animation
+				}
+				sprite_index = jump_spr
+			}
+	}
+	}
 };
 
 scr_state_swim = function()
@@ -193,6 +213,10 @@ scr_state_swim = function()
         xspd *= .98;
        if (xspd < 0.05) or (xspd > 0.05) xspd = 0;
 	}
+	
+	#region
+	Attack_stage_for_player()
+	#endregion
 	
     //The variables setup
     var _ins = instance_place( x, y, obj_swim)
@@ -228,6 +252,7 @@ scr_state_swim = function()
 	scr_state_jump()
 	//Movement
     scr_movement(!_at_surface)
+	
 	
 	if abs(xspd) == 0 
 	{image_speed = 0; image_index = 0;}

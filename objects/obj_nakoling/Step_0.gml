@@ -87,17 +87,17 @@ break;
 var coll_see = noone
 if instance_exists(Target)
 {coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)}
-/*if (sprite_index != sleepy_spr)
+if (sprite_index != sleepy_spr)
 {
 if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
-{*/
+{
 	state = "Chasing";
-/*}
+}
 else
 {
 	state = "Wandering";
 }
-}*/
+}
 
 #endregion
 // Checking Y Ground
@@ -345,7 +345,7 @@ if (place_meeting(x,y+2,obj_collision) || place_meeting(x,y,obj_swim))
 		yspd = -jspd
 		can_jump = 0;
 	}
-	else if (LeapX != 0) && (can_jump == 1)
+	else if (LeapX != 0) && (can_jump == 1) && (sign(LeapX) == sign(Target.x - x))
 	{
 		yspd = -(jspd/2);
 		can_jump = 0;
@@ -385,7 +385,7 @@ else
 
 var AtkX = x+(image_xscale*10)
 var AtkY = bbox_bottom-10
-if (LeapX != 0 && image_index > 2 && image_index < 2.2)
+if (LeapX != 0 && image_index > 2 && image_index < 2.2 && !place_meeting(x,y+2,obj_collision))
 {
 	if (from == noone)
 	{
@@ -398,7 +398,7 @@ if (from != noone) {
 	if instance_exists(from) {from.x = AtkX+LeapX; from.y = AtkY+yspd; from.image_xscale = image_xscale}
 	else {from = noone}
 };
-	
+
 //Animation
 if (xspd != 0)
 {
@@ -472,7 +472,7 @@ else
 }
 
 
-depth = -300;
+depth = 300;
 
 if (bbox_top > room_height)
 {

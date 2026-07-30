@@ -22,7 +22,7 @@
   "height":40,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","blendMode":0,"displayName":"Dagger","isLocked":false,"name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","blendMode":0,"displayName":"Right Arm","isLocked":false,"name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"1e712eea-8982-400e-85df-58f22e8d9316","blendMode":0,"displayName":"Left Arm","isLocked":false,"name":"1e712eea-8982-400e-85df-58f22e8d9316","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"a4e2a01a-8b65-4d70-b721-fcacc598989b","blendMode":0,"displayName":"Body","isLocked":false,"name":"a4e2a01a-8b65-4d70-b721-fcacc598989b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
