@@ -25,10 +25,22 @@ else
 
 ds_list_clear(list)
 
-if (inst != noone) && (inst.hittable == true)
+if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 {
+	var _face = image_xscale
+	var _power = knock_Dis
 	with(inst)
 	{
-		instance_destroy()
+		if (object_index == obj_floriel)
+		{
+			obj_stats.hp--;
+			sprite_index = spr_floriel_hurt;
+			knockY = -_power
+			knockX = (_power/2)*_face
+		}
+		else{instance_destroy()}
 	}
+	
+	hitted = 1;
+	alarm[1] = 60
 }

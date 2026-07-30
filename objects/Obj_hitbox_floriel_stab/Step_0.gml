@@ -1,3 +1,4 @@
+//floriel hitbox stab
 var list = ds_list_create();
 var inst = noone
 var player_inst = noone
@@ -25,13 +26,18 @@ else
 
 ds_list_clear(list)
 
-if (inst != noone) && (inst.hittable == true)
+if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 {
+	hitted = 1;
+	alarm[1] = 60
 	with(inst)
 	{
-		instance_destroy()
+		if (object_index == obj_nakoling)
+		{Health_bar--;}
+		else{instance_destroy()}
 	}
 }
+
 
 if (player_inst != noone)
 && (player_inst.sprite_index == spr_floriel_ledge || player_inst.sprite_index == spr_floriel_round)
