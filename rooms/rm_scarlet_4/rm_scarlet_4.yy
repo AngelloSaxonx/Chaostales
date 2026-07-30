@@ -84,12 +84,11 @@
         {"$GMRInstance":"v4","%Name":"inst_77033725","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_77033725","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":25.0,"scaleY":1.0,"x":80.0,"y":0.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          -2,1,1,5,-26,28,6,4,1,1,43,44,20,-26,37,6,18,43,44,52,53,20,-26,0,7,18,52,53,28,28,29,0,-24,-2147483648,
-          8,0,27,28,28,37,37,38,50,-10,-2147483648,-4,0,-10,-2147483648,4,0,36,37,37,-14,-2147483648,-4,0,-28,
-          -2147483648,4,40,45,47,0,-14,-2147483648,-2,46,3,47,0,24,-9,-2147483648,4,0,30,32,0,-9,-2147483648,10,
-          24,40,45,46,46,10,10,11,0,33,-8,-2147483648,-6,0,-8,-2147483648,8,33,0,9,10,10,43,44,20,-5,0,-5,-2147483648,
-          -6,0,-5,-2147483648,-5,0,11,18,43,44,52,53,3,14,24,14,14,33,-16,14,8,33,14,14,24,14,2,52,53,-14,1,4,
-          24,33,33,24,-14,1,
+          -2,9,1,4,-26,20,6,4,9,9,6,7,12,-26,38,6,18,6,7,15,16,12,-26,0,7,18,15,16,20,20,21,0,-24,-2147483648,
+          8,0,19,20,20,38,38,39,50,-10,-2147483648,-4,0,-10,-2147483648,4,0,37,38,38,-14,-2147483648,-4,0,-28,
+          -2147483648,4,0,46,48,0,-14,-2147483648,-2,47,3,48,0,0,-9,-2147483648,4,0,28,30,0,-9,-2147483648,-2,
+          0,8,46,47,47,2,2,3,0,0,-8,-2147483648,-6,0,-8,-2147483648,-2,0,6,1,2,2,6,7,12,-5,0,-5,-2147483648,-6,
+          0,-5,-2147483648,-5,0,6,10,6,7,15,16,13,-26,40,3,14,15,16,-14,9,4,24,33,33,24,-14,9,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -44,-2147483648,9,14,15,13,22,22,13,14,15,0,-23,-2147483648,9,23,24,32,33,34,35,23,24,0,-24,-2147483648,

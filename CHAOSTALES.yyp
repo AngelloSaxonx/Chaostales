@@ -246,10 +246,10 @@
     {"id":{"name":"spr_floriel_round","path":"sprites/spr_floriel_round/spr_floriel_round.yy",},},
     {"id":{"name":"spr_floriel_run","path":"sprites/spr_floriel_run/spr_floriel_run.yy",},},
     {"id":{"name":"spr_floriel_stab_body","path":"sprites/spr_floriel_stab_body/spr_floriel_stab_body.yy",},},
+    {"id":{"name":"spr_floriel_stab_dagger","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},},
     {"id":{"name":"spr_floriel_stab_final","path":"sprites/spr_floriel_stab_final/spr_floriel_stab_final.yy",},},
     {"id":{"name":"spr_floriel_stab_hitbox","path":"sprites/spr_floriel_stab_hitbox/spr_floriel_stab_hitbox.yy",},},
     {"id":{"name":"spr_floriel_stab_left_arm","path":"sprites/spr_floriel_stab_left_arm/spr_floriel_stab_left_arm.yy",},},
-    {"id":{"name":"spr_floriel_stab_right_arm","path":"sprites/spr_floriel_stab_right_arm/spr_floriel_stab_right_arm.yy",},},
     {"id":{"name":"spr_floriel_swim","path":"sprites/spr_floriel_swim/spr_floriel_swim.yy",},},
     {"id":{"name":"spr_floriel_up","path":"sprites/spr_floriel_up/spr_floriel_up.yy",},},
     {"id":{"name":"spr_floriel_walk","path":"sprites/spr_floriel_walk/spr_floriel_walk.yy",},},
@@ -347,7 +347,6 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_titlescreen","path":"rooms/rm_titlescreen/rm_titlescreen.yy",},},
-    {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
     {"roomId":{"name":"rm_scarlet_cliff_1","path":"rooms/rm_scarlet_cliff_1/rm_scarlet_cliff_1.yy",},},
     {"roomId":{"name":"rm_scarlet_1","path":"rooms/rm_scarlet_1/rm_scarlet_1.yy",},},
     {"roomId":{"name":"rm_scarlet_fish","path":"rooms/rm_scarlet_fish/rm_scarlet_fish.yy",},},
@@ -393,6 +392,7 @@
     {"roomId":{"name":"rm_cemetery_save_1","path":"rooms/rm_cemetery_save_1/rm_cemetery_save_1.yy",},},
     {"roomId":{"name":"rm_scarlet_chest_1","path":"rooms/rm_scarlet_chest_1/rm_scarlet_chest_1.yy",},},
     {"roomId":{"name":"rm_cemetery_arena_1","path":"rooms/rm_cemetery_arena_1/rm_cemetery_arena_1.yy",},},
+    {"roomId":{"name":"Test","path":"rooms/Test/Test.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
