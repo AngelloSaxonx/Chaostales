@@ -62,10 +62,10 @@
         {"$GMRInstance":"v4","%Name":"inst_39C46EE1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_39C46EE1","objectId":{"name":"obj_collision","path":"objects/obj_collision/obj_collision.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":7.0,"x":0.0,"y":60.0,},
       ],"layers":[],"name":"obj_collision","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          -2,1,1,12,-8,1,4,12,1,1,12,-24,1,1,12,-9,1,1,12,-3,1,1,12,-4,1,1,12,-3,1,5,12,1,1,25,26,-27,28,5,4,1,
-          1,34,35,-27,37,5,18,1,12,43,44,-21,0,-5,-2147483648,6,0,18,12,33,52,53,-26,-2147483648,3,49,43,44,-29,
-          -2147483648,3,0,52,53,-30,-2147483648,-2,0,-32,-2147483648,-13,46,6,45,46,45,46,46,45,-13,46,-32,10,
-          9,12,1,1,12,1,1,12,1,12,-4,1,4,12,1,1,12,-5,1,1,12,-3,1,1,12,-3,1,2,12,1,
+          -2,9,1,18,-8,9,4,18,9,9,18,-8,9,1,18,-15,9,1,18,-9,9,1,18,-3,9,1,18,-4,9,1,18,-3,9,5,18,9,9,18,8,-29,
+          20,3,9,8,17,-27,38,5,23,24,18,6,7,-21,0,-5,-2147483648,6,0,32,33,8,15,16,-26,-2147483648,3,49,32,33,
+          -29,-2147483648,3,0,41,42,-30,-2147483648,-2,0,-32,-2147483648,-32,47,-32,2,7,18,9,9,18,9,9,18,-3,9,
+          4,18,9,9,18,-5,9,4,18,9,9,18,-3,9,1,18,-3,9,2,18,9,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -101,-2147483648,6,37,18,21,12,20,45,-26,-2147483648,6,37,18,12,12,20,45,-24,-2147483648,8,16,46,48,
