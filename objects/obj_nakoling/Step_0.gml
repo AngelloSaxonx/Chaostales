@@ -131,6 +131,7 @@ else
 }
 #endregion
 //Pathing
+if (hurted == 0){
 #region
 if (mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true))
 {
@@ -282,6 +283,7 @@ else
 }
 
 #endregion
+}
 //Water Grav
 #region
 var _ins = instance_place( x, y, obj_swim)
@@ -357,17 +359,44 @@ if place_meeting(x+(xspd*spd),y,obj_collision)
 	xspd = 0;
 }
 //Movement
-if (LeapX == 0)
-{x += xspd*spd}
+
+//Hurted
+if (sprite_index == spr_nakoling_hurt) && (hurted == 0)
+{
+	hurted = 1
+	alarm[1] = 40;
+	xspd = knockX;
+	yspd = knockY;
+}
+	
+if (hurted == 1) && (place_meeting(x,y+yspd+2,obj_collision))
+{sprite_index = idle_spr;knockX = 0;knockY = 0;hurted = 0;}
+
+//Knockback because hurted
+if (hurted == 1)
+{
+	LeapX = 0
+	x += xspd
+	y += yspd
+}
+//Otherwise Move Normally
 else
 {
-	xspd = 0;
-	x += LeapX
+	if (LeapX == 0)
+	{x += xspd*spd}
+	else
+	{
+		xspd = 0;
+		x += LeapX
+	}
+
+	y += yspd
 }
-y += yspd
 #endregion
 
 //Attack
+#region
+if (hurted == 0){
 if collision_circle(x,y,detect_range/2.5,Target,false,true) && (!coll_see)
 {
 	if instance_place(x+LeapX,y,obj_collision) || 
@@ -381,6 +410,7 @@ else
 	if instance_exists(Target) || 
 	(!instance_exists(Target) && place_meeting(x,y+2,obj_collision))
 	{LeapX = 0;can_jump = 1;}
+}
 }
 
 var AtkX = x+(image_xscale*10)
@@ -398,14 +428,17 @@ if (from != noone) {
 	if instance_exists(from) {from.x = AtkX+LeapX; from.y = AtkY+yspd; from.image_xscale = image_xscale}
 	else {from = noone}
 };
-
+#endregion
 //Animation
-if (xspd != 0)
+#region
+if (xspd != 0) && (hurted = 0) && (abs(xspd) <= 1)
 {
-	image_xscale = xspd
+	image_xscale = sign(xspd)
 }
-if (yspd != 0) && (!instance_place(x,y+1+yspd,obj_collision))
+if (yspd != 0) && (!instance_place(x,y+2+yspd,obj_collision))
 {
+	if (hurted = 0)
+	{
 	if (LeapX == 0)
 	{
 		if (sprite_index != jump_spr)
@@ -437,6 +470,7 @@ if (yspd != 0) && (!instance_place(x,y+1+yspd,obj_collision))
 			image_speed = 0;
 		}
 		sprite_index = attack_spr
+	}
 	}
 }
 else
@@ -470,7 +504,7 @@ else
 		}
 	}
 }
-
+#endregion
 
 depth = 300;
 

@@ -17,6 +17,7 @@ sub_state = "Scouting"
 
 /////  Don't change it.  /////
 y = y-1
+hurted = 0;
 idle_spr = spr_nakoling;
 walk_spr = spr_nakoling_walk;
 jump_spr = spr_nakoling_jump
@@ -33,6 +34,8 @@ xspd = 0;
 yspd = 0;
 LeapX = 0;
 LeapY = 0;
+knockX = 0;
+knockY = 0;
 should_jump = 0;
 y_ground = room_height
 make_unstuck = 0;

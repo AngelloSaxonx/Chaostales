@@ -35,6 +35,7 @@ if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 		{
 			obj_stats.hp--;
 			sprite_index = spr_floriel_hurt;
+			face = -_face;
 			knockY = -_power
 			knockX = (_power/2)*_face
 		}
