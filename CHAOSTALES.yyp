@@ -283,7 +283,6 @@
     {"id":{"name":"spr_scarlet_background_sky","path":"sprites/spr_scarlet_background_sky/spr_scarlet_background_sky.yy",},},
     {"id":{"name":"spr_scarlet_background","path":"sprites/spr_scarlet_background/spr_scarlet_background.yy",},},
     {"id":{"name":"spr_scarlet_bush","path":"sprites/spr_scarlet_bush/spr_scarlet_bush.yy",},},
-    {"id":{"name":"spr_scarlet_camp_collision","path":"sprites/spr_scarlet_camp_collision/spr_scarlet_camp_collision.yy",},},
     {"id":{"name":"spr_scarlet_camp","path":"sprites/spr_scarlet_camp/spr_scarlet_camp.yy",},},
     {"id":{"name":"spr_scarlet_climb","path":"sprites/spr_scarlet_climb/spr_scarlet_climb.yy",},},
     {"id":{"name":"spr_scarlet_diner","path":"sprites/spr_scarlet_diner/spr_scarlet_diner.yy",},},
