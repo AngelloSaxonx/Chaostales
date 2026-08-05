@@ -22,9 +22,9 @@
   "height":40,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"c7f0ba48-b517-42ba-ac22-d81b6d3355db","blendMode":0,"displayName":"Right Arm","isLocked":false,"name":"c7f0ba48-b517-42ba-ac22-d81b6d3355db","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"6b84b575-63fc-460d-86dc-ed72ac6f7598","blendMode":0,"displayName":"Left Arm","isLocked":false,"name":"6b84b575-63fc-460d-86dc-ed72ac6f7598","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","blendMode":0,"displayName":"Tools","isLocked":false,"name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"1e712eea-8982-400e-85df-58f22e8d9316","blendMode":0,"displayName":"Left Arm","isLocked":false,"name":"1e712eea-8982-400e-85df-58f22e8d9316","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"a4e2a01a-8b65-4d70-b721-fcacc598989b","blendMode":0,"displayName":"Body","isLocked":false,"name":"a4e2a01a-8b65-4d70-b721-fcacc598989b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_nako_swing",
   "nineSlice":null,

@@ -28,14 +28,22 @@ ds_list_clear(list)
 
 if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 {
-	hitted = 1;
-	alarm[1] = 60
+	var _face = image_xscale
+	var _power = knock_Dis
 	with(inst)
 	{
 		if (object_index == obj_nakoling)
-		{Health_bar--;}
+		{
+			Health_bar--;
+			sprite_index = spr_nakoling_hurt;
+			image_xscale = -sign(_face);
+			knockY = -_power
+			knockX = (_power/2)*_face
+		}
 		else{instance_destroy()}
 	}
+	hitted = 1;
+	alarm[1] = 60
 }
 
 
