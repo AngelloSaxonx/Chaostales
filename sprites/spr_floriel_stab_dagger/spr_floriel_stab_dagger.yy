@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a2ba681d-ba23-430e-9b9d-c59b5a9f8d59","name":"a2ba681d-ba23-430e-9b9d-c59b5a9f8d59","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"a2de7ef9-e085-4076-a586-818a7ec1b4a0","name":"a2de7ef9-e085-4076-a586-818a7ec1b4a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"def8fb1f-5f27-4226-accf-e743a32d5297","name":"def8fb1f-5f27-4226-accf-e743a32d5297","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"f981c928-9ced-45b6-a0eb-6bb929b61987","name":"f981c928-9ced-45b6-a0eb-6bb929b61987","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8edbd0d8-8636-4988-b80d-d72b64ddf76c","name":"8edbd0d8-8636-4988-b80d-d72b64ddf76c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ce300613-fb05-4022-8e24-6d6741ee7f29","name":"ce300613-fb05-4022-8e24-6d6741ee7f29","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb9a56f0-fdce-4a1f-ad3c-e495c90d6083","name":"eb9a56f0-fdce-4a1f-ad3c-e495c90d6083","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"349dc70a-77de-4dfe-831e-62faa5c908d8","name":"349dc70a-77de-4dfe-831e-62faa5c908d8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -74,17 +74,17 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2ba681d-ba23-430e-9b9d-c59b5a9f8d59","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"5e6aa89e-a50c-4aee-af8d-15386710872e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"8edbd0d8-8636-4988-b80d-d72b64ddf76c","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"bf8dafd1-ff00-479d-82a9-0d25ed812c58","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a2de7ef9-e085-4076-a586-818a7ec1b4a0","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"60583972-51e7-4bf1-854f-2fd46216ce1b","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"ce300613-fb05-4022-8e24-6d6741ee7f29","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"5c8ecf4a-b0cf-461e-817c-fd0d0458ba93","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"def8fb1f-5f27-4226-accf-e743a32d5297","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"d5b25ff8-5e07-482b-b99d-3b26c71828ce","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"eb9a56f0-fdce-4a1f-ad3c-e495c90d6083","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"ac33df2c-be94-4b5d-a9d2-041b9595adb5","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f981c928-9ced-45b6-a0eb-6bb929b61987","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"9e200fe0-9265-433d-9be6-0e1f86330deb","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"349dc70a-77de-4dfe-831e-62faa5c908d8","path":"sprites/spr_floriel_stab_dagger/spr_floriel_stab_dagger.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"49fdadf8-51f3-41db-82c6-4dc2564a16aa","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
