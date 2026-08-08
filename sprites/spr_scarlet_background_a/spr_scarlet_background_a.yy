@@ -1,18 +1,18 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_scarlet_background_sky",
+  "%Name":"spr_scarlet_background_a",
   "bboxMode":0,
   "bbox_bottom":239,
   "bbox_left":0,
   "bbox_right":319,
-  "bbox_top":0,
+  "bbox_top":93,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"bf362cf9-177d-49c5-b00e-3e33ff0ec6b3","name":"bf362cf9-177d-49c5-b00e-3e33ff0ec6b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4f844aa1-db9a-4218-9a1a-9051673dace9","name":"4f844aa1-db9a-4218-9a1a-9051673dace9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"58f35901-2608-4e66-80b0-2a7d12f714fc","blendMode":0,"displayName":"default","isLocked":false,"name":"58f35901-2608-4e66-80b0-2a7d12f714fc","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_scarlet_background_sky",
+  "name":"spr_scarlet_background_a",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_scarlet_background_sky",
+    "%Name":"spr_scarlet_background_a",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_scarlet_background_sky",
+    "name":"spr_scarlet_background_a",
     "playback":1,
     "playbackSpeed":0.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bf362cf9-177d-49c5-b00e-3e33ff0ec6b3","path":"sprites/spr_scarlet_background_sky/spr_scarlet_background_sky.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"0e2874eb-5ae9-483b-b0b6-424c8e535e5c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4f844aa1-db9a-4218-9a1a-9051673dace9","path":"sprites/spr_scarlet_background_a/spr_scarlet_background_a.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"67f6bb22-e671-4b7a-840d-a765a3f1fdb0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
