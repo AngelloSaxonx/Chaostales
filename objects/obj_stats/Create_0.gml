@@ -16,6 +16,9 @@ switch(char)
 	break;
 }
 
+room_id = "Room"
+scr_room_id(room_id)
+
 space = 20;
 Xoffset = 2
 Yoffset = 12

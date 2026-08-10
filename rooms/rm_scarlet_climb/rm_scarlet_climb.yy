@@ -96,7 +96,7 @@
           20,-12,47,-12,2,8,14,15,16,18,9,15,16,13,-12,2,-2,9,1,18,-8,9,1,18,-8,9,1,18,-8,9,4,18,9,9,18,-5,9,4,
           18,9,9,18,-4,9,4,18,6,7,18,-4,9,4,18,9,9,18,-5,9,1,18,-4,9,1,18,-7,9,8,18,9,9,15,16,9,9,18,-7,9,1,18,
           -4,9,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":32,"TileCompressedData":[
           -108,-2147483648,1,0,-30,-2147483648,2,32,35,-8,-2147483648,4,32,35,32,35,-18,-2147483648,2,50,53,-8,
           -2147483648,4,50,53,50,53,-20,-2147483648,2,32,35,-30,-2147483648,2,50,53,-28,-2147483648,14,32,35,-2147483648,
@@ -105,7 +105,7 @@
           1,0,-19,-2147483648,8,32,35,32,35,-2147483648,-2147483648,32,35,-4,-2147483648,2,32,35,-18,-2147483648,
           8,50,53,50,53,-2147483648,-2147483648,50,53,-4,-2147483648,2,50,53,-131,-2147483648,4,37,18,12,12,-28,
           -2147483648,4,37,18,12,12,-28,-2147483648,4,37,18,12,12,-128,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_back","path":"tilesets/ts_scarlet_back/ts_scarlet_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_climb",

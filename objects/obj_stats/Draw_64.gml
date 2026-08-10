@@ -7,4 +7,5 @@ if room != rm_titlescreen
 	draw_sprite(char_spr,0,Xoffset * (space/2), Yoffset*2)
 	draw_text(Xoffset * space + 20, Yoffset*2, "hp:" + string(hp) + "/" + string(hp_max))
 	draw_text(Xoffset * space + 20, Yoffset*4, "en:" + string(en) + "/" + string(en_max))
+	draw_text(Xoffset * space, Yoffset*18, room_id)
 }

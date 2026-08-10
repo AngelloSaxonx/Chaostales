@@ -99,7 +99,7 @@
           36,27,36,27,36,27,36,27,36,27,36,27,36,27,-11,-2147483648,21,0,10,9,9,7,12,0,45,0,45,0,45,0,45,0,45,
           0,45,0,45,0,-11,-2147483648,21,0,10,9,18,16,12,0,45,0,45,0,45,0,45,0,45,0,45,0,45,0,-11,-2147483648,
           2,0,10,-3,9,1,13,-27,40,1,14,-36,9,1,18,-9,9,1,18,-17,9,1,18,-8,9,1,18,-17,9,1,18,-6,9,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":32,"TileCompressedData":[
           -2,-2147483648,5,32,33,34,35,0,-27,-2147483648,5,41,42,43,44,0,-27,-2147483648,5,41,42,43,44,0,-27,-2147483648,
           5,41,42,43,44,0,-4,-2147483648,-8,0,-15,-2147483648,5,50,51,52,53,0,-4,-2147483648,-8,0,-15,-2147483648,
@@ -111,7 +111,7 @@
           5,0,5,0,5,0,5,0,5,0,5,-17,-2147483648,15,6,-2147483648,6,0,6,0,6,0,6,0,6,0,6,0,6,-17,-2147483648,27,
           6,-2147483648,6,0,6,0,6,0,6,0,6,0,6,0,6,32,33,34,33,34,33,34,33,34,33,34,35,-8,-2147483648,24,13,22,
           22,13,22,22,13,22,22,13,22,22,13,22,22,13,22,22,13,22,22,13,22,22,-3,0,-96,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_back","path":"tilesets/ts_scarlet_back/ts_scarlet_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_town_2",

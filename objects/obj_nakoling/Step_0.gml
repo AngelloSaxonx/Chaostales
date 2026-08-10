@@ -31,35 +31,6 @@ else
 			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
 			{timer_rescout = 300;}
 		break;
-		case "Gathering":
-			check_my_self = 0;
-			randomise()
-			var roll1 = irandom(instance_number(obj_scarlet_bush)-1)
-			checker = roll1;
-			var random_coll1 = instance_find(obj_scarlet_bush,roll1)
-			if (random_coll1 != noone){
-			destinationX = random_coll1.x
-			destinationY = random_coll1.bbox_bottom-1
-			}
-			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 600;
-			}
-		break;
-		case "Resting":
-			check_my_self = 0;
-			randomise()
-			var roll2 = irandom(instance_number(obj_scarlet_camp)-1)
-			var random_coll2 = instance_find(obj_scarlet_camp,roll2)
-			if (random_coll2 != noone){
-			destinationX = random_range(random_coll2.bbox_left+10,random_coll2.bbox_right-10)
-			destinationY = random_coll2.bbox_bottom - 30
-			}
-			if mp_grid_path(obj_grid.cell,path,x,y,TargetX,TargetY-1,true)
-			{
-				timer_rescout = 1000;
-			}
-		break;
 	}
 }
 break;
@@ -484,25 +455,7 @@ else
 		}
 		sprite_index = walk_spr
 	}
-	else
-	{
-		if (sub_state == "Resting")
-		{
-			if (sprite_index != sleepy_spr)
-			{
-				image_index = 0
-			}
-			sprite_index = sleepy_spr
-		}
-		else
-		{
-			if (sprite_index != idle_spr)
-			{
-				image_index = 0
-			}
-			sprite_index = idle_spr
-		}
-	}
+
 }
 #endregion
 

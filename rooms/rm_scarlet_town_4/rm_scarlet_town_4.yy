@@ -47,11 +47,11 @@
           4,32,33,43,44,-28,-2147483648,4,41,42,0,0,-64,-2147483648,-12,0,4,46,47,47,48,-14,0,3,6,7,8,-3,17,4,
           8,17,17,8,-3,17,1,8,-4,2,1,8,-3,17,4,8,17,17,8,-3,17,8,8,6,7,15,16,18,9,18,-3,9,4,18,9,9,18,-3,9,1,18,
           -3,9,1,18,-3,9,1,18,-4,9,4,18,9,15,16,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -224,-2147483648,2,34,35,-28,-2147483648,4,32,33,43,44,-28,-2147483648,4,41,42,52,53,-28,-2147483648,
           2,50,51,-64,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_back","path":"tilesets/ts_scarlet_back/ts_scarlet_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_town_4",

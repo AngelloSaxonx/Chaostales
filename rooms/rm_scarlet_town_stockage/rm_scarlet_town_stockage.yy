@@ -31,7 +31,7 @@
           2,1,5,-30,28,2,1,20,-30,37,3,1,20,0,-29,-2147483648,3,1,20,0,-29,-2147483648,3,1,20,0,-22,-2147483648,
           2,40,45,-5,46,3,1,20,0,-22,-2147483648,2,0,9,-5,10,3,1,20,0,-22,-2147483648,2,0,18,-6,1,2,20,0,-8,-2147483648,
           -2,0,-12,-2147483648,2,0,18,-6,1,1,20,-15,46,-6,45,-3,46,1,18,-6,1,1,3,-24,10,1,2,-69,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
           -35,-2147483648,7,37,18,12,30,12,20,45,-7,-2147483648,8,37,27,3,12,12,21,20,45,-5,-2147483648,2,32,33,
           -3,-2147483648,7,37,27,28,3,12,20,45,-7,-2147483648,8,25,39,18,30,12,4,29,45,-5,-2147483648,2,41,42,
@@ -41,7 +41,7 @@
           45,-5,-2147483648,2,37,18,-3,12,4,2,10,11,45,-10,-2147483648,3,16,48,18,-3,12,2,20,45,-5,-2147483648,
           3,37,18,30,-4,12,2,20,45,-10,-2147483648,8,37,9,1,12,12,30,20,45,-5,-2147483648,2,37,18,-4,12,3,30,20,
           45,-102,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_back","path":"tilesets/ts_scarlet_back/ts_scarlet_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_town_stockage",

@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scarlet_herb_d",
-    "path":"sprites/spr_scarlet_herb_d/spr_scarlet_herb_d.yy",
+    "name":"spr_scarlet_herb_b",
+    "path":"sprites/spr_scarlet_herb_b/spr_scarlet_herb_b.yy",
   },
   "spriteMaskId":null,
   "visible":true,

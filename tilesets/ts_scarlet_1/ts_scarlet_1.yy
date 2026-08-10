@@ -1,13 +1,13 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"ts_scarlet_back",
+  "%Name":"ts_scarlet_1",
   "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"ts_scarlet_back",
+  "name":"ts_scarlet_1",
   "out_columns":7,
   "out_tilehborder":2,
   "out_tilevborder":2,
@@ -18,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_scarlet_back",
-    "path":"sprites/spr_scarlet_back/spr_scarlet_back.yy",
+    "name":"spr_scarlet_1",
+    "path":"sprites/spr_scarlet_1/spr_scarlet_1.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{

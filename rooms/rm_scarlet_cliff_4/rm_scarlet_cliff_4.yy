@@ -105,7 +105,7 @@
           21,0,-4,-2147483648,-2,37,2,38,0,-3,-2147483648,9,0,37,38,39,50,-2147483648,0,46,47,-3,-2147483648,1,
           0,-3,-2147483648,1,0,-5,-2147483648,7,0,1,2,47,47,48,0,-3,-2147483648,2,0,46,-5,47,6,10,8,2,2,3,0,-3,
           -2147483648,2,0,1,-5,2,7,14,18,18,9,12,0,-2147483648,-3,0,1,10,-3,9,1,18,-3,9,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_front","path":"tilesets/ts_scarlet_front/ts_scarlet_front.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":24,"SerialiseWidth":16,"TileCompressedData":[
           -59,-2147483648,4,12,30,12,12,-12,-2147483648,-3,12,1,30,-12,-2147483648,1,30,-3,12,1,-2147483648,-3,
           0,-6,-2147483648,2,37,18,-4,12,4,-2147483648,21,20,45,-6,-2147483648,10,37,18,12,12,21,12,-2147483648,
@@ -114,7 +114,7 @@
           5,23,24,-2147483648,22,22,-83,-2147483648,5,21,12,30,12,12,-11,-2147483648,-6,12,2,20,45,-6,-2147483648,
           3,37,18,30,-3,12,4,30,21,20,45,-6,-2147483648,2,37,18,-3,12,-2,-2147483648,3,12,20,45,-6,-2147483648,
           5,37,18,12,30,12,-34,-2147483648,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_back","path":"tilesets/ts_scarlet_back/ts_scarlet_back.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+        ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_cliff_4",
