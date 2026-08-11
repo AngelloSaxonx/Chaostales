@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scarlet_house_front",
-    "path":"sprites/spr_scarlet_house_front/spr_scarlet_house_front.yy",
+    "name":"spr_scarlet_house",
+    "path":"sprites/spr_scarlet_house/spr_scarlet_house.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
