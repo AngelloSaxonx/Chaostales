@@ -248,6 +248,7 @@
     {"id":{"name":"spr_nako_run","path":"sprites/spr_nako_run/spr_nako_run.yy",},},
     {"id":{"name":"spr_nako_slash_hitbox","path":"sprites/spr_nako_slash_hitbox/spr_nako_slash_hitbox.yy",},},
     {"id":{"name":"spr_nako_swim","path":"sprites/spr_nako_swim/spr_nako_swim.yy",},},
+    {"id":{"name":"spr_nako_swing_sbs","path":"sprites/spr_nako_swing_sbs/spr_nako_swing_sbs.yy",},},
     {"id":{"name":"spr_nako_swing","path":"sprites/spr_nako_swing/spr_nako_swing.yy",},},
     {"id":{"name":"spr_nako_walk","path":"sprites/spr_nako_walk/spr_nako_walk.yy",},},
     {"id":{"name":"spr_nako","path":"sprites/spr_nako/spr_nako.yy",},},
