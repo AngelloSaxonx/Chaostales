@@ -37,7 +37,6 @@ if speaker_name != ""
 {
 	var  _name_w = max(string_width(speaker_name), speaker_width);
 	
-	draw_sprite_stretched(text_sprite, 0, x, y + speaker_y - speaker_height, _name_w, speaker_height)
 	
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);

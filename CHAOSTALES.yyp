@@ -306,7 +306,6 @@
     {"id":{"name":"spr_text_winged_nako","path":"sprites/spr_text_winged_nako/spr_text_winged_nako.yy",},},
     {"id":{"name":"spr_textbox_classic","path":"sprites/spr_textbox_classic/spr_textbox_classic.yy",},},
     {"id":{"name":"spr_textbox_flower","path":"sprites/spr_textbox_flower/spr_textbox_flower.yy",},},
-    {"id":{"name":"spr_textbox_name","path":"sprites/spr_textbox_name/spr_textbox_name.yy",},},
     {"id":{"name":"spr_title_1","path":"sprites/spr_title_1/spr_title_1.yy",},},
     {"id":{"name":"spr_transition","path":"sprites/spr_transition/spr_transition.yy",},},
     {"id":{"name":"spr_warp","path":"sprites/spr_warp/spr_warp.yy",},},

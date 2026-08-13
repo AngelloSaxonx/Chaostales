@@ -48,8 +48,8 @@ enum PORTRAIT_SIDE
 }
 
 speaker_name = "";
-speaker_width = sprite_get_width((spr_textbox_name));
-speaker_height = sprite_get_height(spr_textbox_name);
+speaker_width = sprite_get_width(spr_textbox_classic);
+speaker_height = sprite_get_height(spr_textbox_classic);
 speaker_font = global.classic_font;
 speaker_color = #ffffff;
 //Cutscene Methods

@@ -13,17 +13,14 @@ function scr_text(_text) : scr_actions() constructor
 	}
 }
 
-function scr_speaker(_name, _sprite = undefined, _portrait = undefined, _side = undefined) : scr_actions() constructor
+function scr_speaker(_sprite = undefined, _portrait = undefined, _side = undefined) : scr_actions() constructor
 {
-	name = _name;
 	sprite = _sprite;
 	portrait = _portrait;
 	side = _side;
 	
 	act = function(_textbox)
 	{
-		_textbox.speaker_name = name;
-		
 		if !is_undefined(sprite)
 			_textbox.text_sprite = sprite;
 		

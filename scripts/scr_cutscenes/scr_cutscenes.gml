@@ -3,9 +3,9 @@ global.cutscenes = {};
 global.cutscenes[$ "test"] = 
 [
 	new scr_text("Text testing"),
-	new scr_speaker("Floriel", spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
+	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
 	new scr_text("Floriel left testing."),
-	new scr_speaker("Floriel", spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.RIGHT),
+	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.RIGHT),
 	new scr_text("Floriel right testing")
 ]
 
@@ -25,7 +25,7 @@ global.cutscenes[$ "scarlet teapot"] =
 [
 	new scr_text("Teapots..."),
 	new scr_text("Meant for two lovers."),
-	new scr_speaker("Floriel",spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
+	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
 	new scr_text("Wish i'd ride one someday.")
 ]
 
