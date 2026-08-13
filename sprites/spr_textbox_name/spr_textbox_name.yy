@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Textbox",
-    "path":"folders/Sprites/Textbox.yy",
+    "name":"Dialogue",
+    "path":"folders/Sprites/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

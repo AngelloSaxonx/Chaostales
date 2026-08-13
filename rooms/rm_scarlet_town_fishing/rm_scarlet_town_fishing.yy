@@ -41,10 +41,12 @@
     {"name":"inst_4943C16B","path":"rooms/rm_scarlet_town_fishing/rm_scarlet_town_fishing.yy",},
     {"name":"inst_78253B7F","path":"rooms/rm_scarlet_town_fishing/rm_scarlet_town_fishing.yy",},
     {"name":"inst_44D1342D","path":"rooms/rm_scarlet_town_fishing/rm_scarlet_town_fishing.yy",},
+    {"name":"inst_4759A6D3","path":"rooms/rm_scarlet_town_fishing/rm_scarlet_town_fishing.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"obj_main","depth":0,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v4","%Name":"inst_4759A6D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4759A6D3","objectId":{"name":"bg_scarlet_fields","path":"objects/bg_scarlet_fields/bg_scarlet_fields.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"$GMRInstance":"v4","%Name":"inst_3F309F37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3F309F37","objectId":{"name":"obj_scarlet_house","path":"objects/obj_scarlet_house/obj_scarlet_house.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":200.0,},
         {"$GMRInstance":"v4","%Name":"inst_648269ED","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_648269ED","objectId":{"name":"obj_scarlet_house","path":"objects/obj_scarlet_house/obj_scarlet_house.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":320.0,},
         {"$GMRInstance":"v4","%Name":"inst_5D4E3181","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D4E3181","objectId":{"name":"obj_scarlet_door","path":"objects/obj_scarlet_door/obj_scarlet_door.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":320.0,"y":180.0,},
@@ -113,7 +115,7 @@
           4,0,17,8,8,-3,0,4,17,16,8,19,-22,-2147483648,5,17,8,16,0,0,-6,-2147483648,-20,0,-11,-2147483648,-21,
           0,-6,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "name":"rm_scarlet_town_fishing",
   "parent":{
@@ -138,7 +140,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":640,"hport":768,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"obj_floriel","path":"objects/obj_floriel/obj_floriel.yy",},"vborder":480,"visible":true,"vspeed":-1,"wport":1366,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":640,"hport":768,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"obj_flowerl","path":"objects/obj_flowerl/obj_flowerl.yy",},"vborder":480,"visible":true,"vspeed":-1,"wport":1366,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

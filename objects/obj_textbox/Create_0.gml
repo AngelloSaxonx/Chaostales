@@ -13,8 +13,8 @@ text_sprite = spr_textbox_classic;
 text_font = global.classic_font;
 text_color = #ffffff;
 text_speed = 1;
-text_x = padding + 1;
-text_y = padding - 10;
+text_x = padding * 2;
+text_y = padding;
 text_width = width - padding*2;
 
 //Portrait
@@ -37,8 +37,8 @@ text_progress = 0;
 text_length = 0;
 
 portrait_sprite = -1;
-portrait_width = 80;
-portrait_height = 80;
+portrait_width = 60;
+portrait_height = 60;
 portrait_side = PORTRAIT_SIDE.LEFT;
 
 enum PORTRAIT_SIDE

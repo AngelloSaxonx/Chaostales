@@ -58,8 +58,6 @@ break;
 var coll_see = noone
 if instance_exists(Target)
 {coll_see = collision_line(x,y-1,Target.x,Target.y-1,obj_collision,true,true)}
-if (sprite_index != sleepy_spr)
-{
 if collision_circle(x,y,detect_range,Target,false,true) && (!coll_see)
 {
 	state = "Chasing";
@@ -68,7 +66,7 @@ else
 {
 	state = "Wandering";
 }
-}
+
 
 #endregion
 // Checking Y Ground

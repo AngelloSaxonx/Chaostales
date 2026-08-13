@@ -1,16 +1,16 @@
-Prologue: Road to Mt. Florila
+llPrologue: Road to Mt. Florila
 Chapter 1: Colorful Jardinage
 Chapter 2: Un-Vision
 Chapter 3: Looping the Floors
 Chapter 4: Noblesse Festival
 Chapter 5: Judgements and Dragons
 Chapter 6: Sombers and Lumières
-Chapter 7: Chaotic Finale
+Chapter 7: Finale
 
 Prologue:
 -Scarlet Fields [1] (90%)
 -Entry (90%)
--Autumn Cemetery [2] (10%)
+-Autumn Cemetery [2] (5%)
 -Grounds2 [3]
 -Marshmallows [5]
 -Winter Town [6]

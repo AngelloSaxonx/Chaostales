@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a1894b9a-c61b-424b-8f8d-405f1d983cbb","name":"a1894b9a-c61b-424b-8f8d-405f1d983cbb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b78399c7-fcfd-4b41-b8f8-f141312fdcd9","name":"b78399c7-fcfd-4b41-b8f8-f141312fdcd9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -24,15 +24,15 @@
   "name":"spr_textbox_classic",
   "nineSlice":{
     "$GMNineSliceData":"",
-    "bottom":7,
+    "bottom":6,
     "enabled":true,
     "guideColour":[4294902015,4294902015,4294902015,4294902015,],
     "highlightColour":1728023040,
     "highlightStyle":0,
-    "left":7,
+    "left":6,
     "resourceType":"GMNineSliceData",
     "resourceVersion":"2.0",
-    "right":7,
+    "right":6,
     "tileMode":[
       0,
       0,
@@ -40,12 +40,12 @@
       0,
       1,
     ],
-    "top":7,
+    "top":6,
   },
   "origin":4,
   "parent":{
-    "name":"Textbox",
-    "path":"folders/Sprites/Textbox.yy",
+    "name":"Dialogue",
+    "path":"folders/Sprites/Dialogue.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -88,8 +88,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a1894b9a-c61b-424b-8f8d-405f1d983cbb","path":"sprites/spr_textbox_classic/spr_textbox_classic.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"787a4c43-8119-4467-a754-67ed1608970e","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"b78399c7-fcfd-4b41-b8f8-f141312fdcd9","path":"sprites/spr_textbox_classic/spr_textbox_classic.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"837508a2-2386-4381-a571-a39e4aa8ff50","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

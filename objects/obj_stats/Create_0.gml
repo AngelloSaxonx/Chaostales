@@ -12,7 +12,7 @@ char = "Azure";
 switch(char)
 {
 	case("Azure"):
-	char_spr = spr_icon_floriel;
+	char_spr = spr_icon_flower;
 	break;
 }
 

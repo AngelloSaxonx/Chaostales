@@ -48,10 +48,10 @@
           4,18,9,9,18,-5,9,4,18,9,9,18,-3,9,1,18,-3,9,2,18,9,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_1","path":"tilesets/ts_scarlet_1/ts_scarlet_1.yy",},"userdefinedDepth":true,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"ts_scarlet_2","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"ts_scarlet_2","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":12,"SerialiseWidth":32,"TileCompressedData":[
-          -101,-2147483648,6,37,18,21,12,20,45,-26,-2147483648,6,37,18,12,12,20,45,-24,-2147483648,8,16,46,48,
-          18,12,30,20,45,-21,-2147483648,11,33,34,35,37,9,10,1,12,12,20,45,-21,-2147483648,5,42,43,44,37,18,-4,
-          12,2,20,45,-19,-2147483648,8,32,33,42,43,44,37,18,30,-3,12,2,20,45,-19,-2147483648,13,41,42,51,52,53,
-          37,18,12,12,30,12,20,45,-19,-2147483648,2,50,51,-64,-2147483648,
+          -99,-2147483648,-2,21,-7,0,-23,-2147483648,-2,5,2,0,1,-3,2,1,3,-24,-2147483648,-2,13,2,0,9,-3,10,1,11,
+          -21,-2147483648,13,28,29,30,31,21,0,17,8,16,8,19,2,3,-19,-2147483648,15,36,37,38,39,5,0,17,8,8,24,19,
+          10,11,0,0,-15,-2147483648,16,32,33,36,37,38,39,13,0,17,16,8,8,19,8,19,-2147483648,-7,0,-6,-2147483648,
+          -3,0,15,41,42,44,45,46,47,21,0,17,24,8,16,19,24,19,-7,0,1,-2147483648,-11,0,-64,-2147483648,
         ],"TileDataFormat":1,},"tilesetId":{"name":"ts_scarlet_2","path":"tilesets/ts_scarlet_2/ts_scarlet_2.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":500,"effectEnabled":true,"effectType":null,"gridX":20,"gridY":20,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":false,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -78,7 +78,7 @@
   },
   "sequenceId":null,
   "views":[
-    {"hborder":640,"hport":768,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"obj_floriel","path":"objects/obj_floriel/obj_floriel.yy",},"vborder":240,"visible":true,"vspeed":-1,"wport":1366,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":640,"hport":768,"hspeed":-1,"hview":240,"inherit":false,"objectId":{"name":"obj_flowerl","path":"objects/obj_flowerl/obj_flowerl.yy",},"vborder":240,"visible":true,"vspeed":-1,"wport":1366,"wview":320,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},

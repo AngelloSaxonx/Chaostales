@@ -3,10 +3,10 @@ global.cutscenes = {};
 global.cutscenes[$ "test"] = 
 [
 	new scr_text("Text testing"),
-	new scr_speaker("Azure", spr_textbox_floriel, spr_portrait_floriel_neutral, PORTRAIT_SIDE.LEFT),
-	new scr_text("Azure left testing."),
-	new scr_speaker("Azure", spr_textbox_floriel, spr_portrait_floriel_neutral, PORTRAIT_SIDE.RIGHT),
-	new scr_text("Azure right testing")
+	new scr_speaker("Floriel", spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
+	new scr_text("Floriel left testing."),
+	new scr_speaker("Floriel", spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.RIGHT),
+	new scr_text("Floriel right testing")
 ]
 
 global.cutscenes[$ "door"] = 
@@ -19,12 +19,14 @@ global.cutscenes[$ "tomb"] =
 	new scr_text("It's the tomb of a deceased Monster.")
 ]
 
-//Crimson Fields
+//Scarlet Fields
 
-global.cutscenes[$ "crimson teapot"] = 
+global.cutscenes[$ "scarlet teapot"] = 
 [
 	new scr_text("Teapots..."),
-	new scr_text("Meant for two lovers.")
+	new scr_text("Meant for two lovers."),
+	new scr_speaker("Floriel",spr_textbox_flower, spr_flower_portrait_neutral, PORTRAIT_SIDE.LEFT),
+	new scr_text("Wish i'd ride one someday.")
 ]
 
 global.cutscenes[$ "rouge pastry"] = 
@@ -36,5 +38,5 @@ global.cutscenes[$ "rouge pastry"] =
 	new scr_text("Will you enter the shop?")
 ]
 
-// Hallow Cemetery
+// Autumn Cemetery
 
