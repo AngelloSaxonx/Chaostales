@@ -1,4 +1,4 @@
 target_x = 20;
-target_y = 220;
-target_rm = rm_scarlet_cliff_1;
+target_y = 180;
+target_rm = rm_scarlet_1;
 

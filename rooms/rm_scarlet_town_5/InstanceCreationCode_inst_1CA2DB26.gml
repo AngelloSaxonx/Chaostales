@@ -1,3 +1,3 @@
 target_x = 20;
 target_y = 200;
-target_rm = rm_scarlet_town_fishing;
+target_rm = rm_scarlet_town_6;

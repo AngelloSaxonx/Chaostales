@@ -1,4 +1,4 @@
-llPrologue: Road to Mt. Florila
+Prologue: Road to Mt. Florila
 Chapter 1: Colorful Jardinage
 Chapter 2: Un-Vision
 Chapter 3: Looping the Floors

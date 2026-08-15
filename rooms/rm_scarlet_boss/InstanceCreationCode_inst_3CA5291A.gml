@@ -1,3 +1,3 @@
 target_x = 20;
-target_y = 380;
-target_rm = rm_scarlet_cliff_2;
+target_y = 180;
+target_rm = rm_scarlet_save_1;
