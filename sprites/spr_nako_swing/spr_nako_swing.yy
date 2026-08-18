@@ -22,7 +22,9 @@
   "height":40,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","blendMode":0,"displayName":"Tools","isLocked":false,"name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"35d75baa-aaa4-448f-a557-56690e2ee8a5","blendMode":0,"displayName":"left arm","isLocked":false,"name":"35d75baa-aaa4-448f-a557-56690e2ee8a5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f492c01e-b5e8-454b-9f60-a009209c4872","blendMode":0,"displayName":"right arm","isLocked":false,"name":"f492c01e-b5e8-454b-9f60-a009209c4872","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","blendMode":0,"displayName":"body","isLocked":false,"name":"162fbeae-8f51-4626-8c0d-a0254852b0f0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_nako_swing",
   "nineSlice":null,

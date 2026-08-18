@@ -3,16 +3,16 @@
   "%Name":"spr_scarlet_background_b",
   "bboxMode":0,
   "bbox_bottom":239,
-  "bbox_left":24,
-  "bbox_right":295,
-  "bbox_top":141,
+  "bbox_left":10,
+  "bbox_right":309,
+  "bbox_top":133,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"6cc1a5b9-2450-433b-bbff-d0c1035210d9","name":"6cc1a5b9-2450-433b-bbff-d0c1035210d9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5c8de4d8-049d-467f-9f60-9fc6f46bb07e","name":"5c8de4d8-049d-467f-9f60-9fc6f46bb07e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Background",
-    "path":"folders/Sprites/Areas/Scarlet Fields/Background.yy",
+    "path":"folders/Sprites/Areas/Colorful Fields/Background.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"6cc1a5b9-2450-433b-bbff-d0c1035210d9","path":"sprites/spr_scarlet_background_b/spr_scarlet_background_b.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"f901ec5b-0536-40b7-8645-d1d89321e1d9","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5c8de4d8-049d-467f-9f60-9fc6f46bb07e","path":"sprites/spr_scarlet_background_b/spr_scarlet_background_b.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"c0cc32c4-0312-427f-a6d7-4ffa7f56eaf5","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

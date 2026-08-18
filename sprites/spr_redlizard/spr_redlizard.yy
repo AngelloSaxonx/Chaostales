@@ -12,7 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"e02b5a15-cd0b-4f42-adef-a8e040261b4e","name":"e02b5a15-cd0b-4f42-adef-a8e040261b4e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"32d10f0c-8486-428a-9843-3f7011fc34f2","name":"32d10f0c-8486-428a-9843-3f7011fc34f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f953e3b-4a95-417a-986e-d3f64d36ff34","name":"9f953e3b-4a95-417a-986e-d3f64d36ff34","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44de28ff-fe67-4a74-8ff9-0f4e2d470ada","name":"44de28ff-fe67-4a74-8ff9-0f4e2d470ada","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
   "gridY":20,
@@ -23,7 +25,7 @@
   ],
   "name":"spr_redlizard",
   "nineSlice":null,
-  "origin":0,
+  "origin":7,
   "parent":{
     "name":"Movement",
     "path":"folders/Sprites/Characters/Scarlet Fields/Enemies/Red Lizard/Movement.yy",
@@ -49,7 +51,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":1.0,
+    "length":3.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -69,14 +71,20 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"e02b5a15-cd0b-4f42-adef-a8e040261b4e","path":"sprites/spr_redlizard/spr_redlizard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b486fb16-b2c8-4865-b837-f1b04d20eeac","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"32d10f0c-8486-428a-9843-3f7011fc34f2","path":"sprites/spr_redlizard/spr_redlizard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"63747cd2-1257-4661-b8b6-a2f81aa05285","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9f953e3b-4a95-417a-986e-d3f64d36ff34","path":"sprites/spr_redlizard/spr_redlizard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"e7caa460-8062-4565-8e16-14b25a365938","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"44de28ff-fe67-4a74-8ff9-0f4e2d470ada","path":"sprites/spr_redlizard/spr_redlizard.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"496f50fa-67c9-407c-9d68-8d8c67e8d4ac","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
-    "yorigin":0,
+    "xorigin":20,
+    "yorigin":40,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

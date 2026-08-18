@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Tiles",
-    "path":"folders/Sprites/Areas/Scarlet Fields/Tiles.yy",
+    "path":"folders/Sprites/Areas/Colorful Fields/Tiles.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
