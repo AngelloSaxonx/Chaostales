@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Rouge's Pastry",
-    "path":"folders/Sprites/Areas/Colorful Fields/Decor/Rouge's Pastry.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Decor/Rouge's Pastry.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

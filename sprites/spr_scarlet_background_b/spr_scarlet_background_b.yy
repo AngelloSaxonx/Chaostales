@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Background",
-    "path":"folders/Sprites/Areas/Colorful Fields/Background.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Background.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

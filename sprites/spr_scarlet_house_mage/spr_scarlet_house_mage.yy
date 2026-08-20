@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Scarlet Mage",
-    "path":"folders/Sprites/Areas/Colorful Fields/Decor/Scarlet Mage.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Decor/Scarlet Mage.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

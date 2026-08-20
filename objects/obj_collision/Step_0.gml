@@ -51,28 +51,3 @@ with (obj_collision)
 }
 
 
-if (put_pathing == 0) && (instance_exists(obj_nakoling))
-{
-var inst = instance_create_depth(x,y,depth,obj_pathfindable)
-if (inst)
-{
-	inst.x = x
-	inst.y = y
-	inst.sprite_index = sprite_index
-	inst.mask_index = mask_index
-	
-	inst.image_xscale = image_xscale
-	inst.image_yscale = 1//image_yscale
-	
-	inst.LPoint = LPoint
-	inst.RPoint = RPoint
-	inst.YPoint = YPoint
-	
-	if instance_place(inst.x,inst.YPoint,obj_collision)
-	|| (!collision_rectangle(bbox_left,bbox_top-room_height,bbox_right,bbox_top,obj_collision,true,true))
-	{
-		instance_destroy(inst)
-	}
-}
-put_pathing = 1
-}

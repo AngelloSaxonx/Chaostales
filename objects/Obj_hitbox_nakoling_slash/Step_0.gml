@@ -31,7 +31,7 @@ if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 	var _power = knock_Dis
 	with(inst)
 	{
-		if (object_index == obj_flowerl)
+		if (object_index == obj_flower)
 		{
 			obj_stats.hp--;
 			sprite_index = spr_flower_hurt;

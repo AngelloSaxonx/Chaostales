@@ -32,7 +32,7 @@ if (inst != noone) && (inst.hittable == true)  && (hitted == 0)
 	var _power = knock_Dis
 	with(inst)
 	{
-		if (object_index == obj_nakoling)
+		if (object_index == obj_nako)
 		{
 			Health_bar--;
 			sprite_index = spr_nakoling_hurt;

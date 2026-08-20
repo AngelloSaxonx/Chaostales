@@ -12,8 +12,8 @@
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
-    "name":"Colorful Fields",
-    "path":"folders/Tile sets/Colorful Fields.yy",
+    "name":"Scarlet Fields",
+    "path":"folders/Tile sets/Scarlet Fields.yy",
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",

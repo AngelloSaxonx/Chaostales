@@ -26,7 +26,7 @@
   "origin":7,
   "parent":{
     "name":"Scarlet Shop",
-    "path":"folders/Sprites/Areas/Colorful Fields/Decor/Scarlet Shop.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Decor/Scarlet Shop.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

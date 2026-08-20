@@ -45,7 +45,7 @@
   "origin":7,
   "parent":{
     "name":"Decor",
-    "path":"folders/Sprites/Areas/Colorful Fields/Decor.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Decor.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -1,3 +1,3 @@
 target_x = 20;
 target_y = 220;
-target_rm = rm_weird_fields_3;
+target_rm = rm_weird_fields_2;

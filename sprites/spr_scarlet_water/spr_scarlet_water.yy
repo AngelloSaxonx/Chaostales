@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"Gameplay",
-    "path":"folders/Sprites/Areas/Colorful Fields/Gameplay.yy",
+    "path":"folders/Sprites/Areas/Scarlet Fields/Gameplay.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

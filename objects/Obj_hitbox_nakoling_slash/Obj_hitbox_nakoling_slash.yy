@@ -31,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_nakoling_slash_hitbox",
-    "path":"sprites/spr_nakoling_slash_hitbox/spr_nakoling_slash_hitbox.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":false,
 }
