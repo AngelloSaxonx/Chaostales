@@ -1,3 +1,0 @@
-target_x = 20;
-target_y = 220;
-target_rm = rm_scarlet_arena_1;

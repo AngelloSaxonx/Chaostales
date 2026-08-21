@@ -81,8 +81,4 @@ function scr_movement(_use_grav = true, _use_term_vel = true){
 	{
     y += yspd;
 	}
-	
-	on_water = place_meeting(x + xspd, y, obj_swim);
-	on_water = place_meeting(x, y + yspd, obj_swim);
-	
 }

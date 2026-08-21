@@ -10,7 +10,7 @@ run_spr = spr_flower_run;
 ledge_spr = spr_flower_ledge
 jump_spr = spr_flower_jump;
 dash_air_spr = spr_flower_round;
-swim_spr = spr_flower_swim;
+
 attack_spr[0] = spr_flower_stab_final
 attack_spr[1] = spr_flower_stab_body
 attack_spr[2] = spr_flower_stab_dagger
@@ -192,68 +192,6 @@ scr_state_idle = function()
 	}
 	}
 };
-
-scr_state_swim = function()
-{
-	//X
-	move_dir = right_key - left_key;
-
-    if move_dir != 0 {face = move_dir};
-
-    run_type = run_key;
-    
-	if (move_dir != 0){
-        xspd = move_dir * move_spd[run_type] / 2; // because you're on water
-    } else {
-        xspd *= .98;
-       if (xspd < 0.05) or (xspd > 0.05) xspd = 0;
-	}
-	
-	#region
-	Attack_stage_for_player()
-	#endregion
-	
-    //The variables setup
-    var _ins = instance_place( x, y, obj_swim)
-    var _at_surface = false;
-    //If there's water nearby
-    if instance_exists(_ins)
-    {
-        var _yy = _ins.bbox_top+12 //_ins.y+sprite_height/2
-        if (y > _yy){y = _yy};
-
-        //If you go to water
-        if y+yspd <= _ins.y
-        {
-            yspd -= grav*2;
-            //If you jump out the water
-            if y+yspd <= _ins.y
-            {
-                y = _ins.y;
-                if yspd >= 0
-				{
-					_at_surface = true;
-				}
-            }
-        }
-    }
-	
-	if (on_water == false) // reseting state
-	{
-		state = scr_state_idle
-	}
-	//Y
-	if (jump_key_pressed && can_jump) {sprite_index = jump_spr; image_index = 0;} //Double jumping refresh animation
-	scr_state_jump()
-	//Movement
-    scr_movement(!_at_surface)
-	
-	
-	if abs(xspd) == 0 
-	{image_speed = 0; image_index = 0;}
-	else{image_speed = 1;}
-	sprite_index = swim_spr
-}
 
 scr_wall_recovery = function()
 {
