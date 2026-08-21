@@ -42,6 +42,6 @@ knockY = 0;
 should_jump = 0;
 y_ground = room_height
 make_unstuck = 0;
-can_jump = 1 No newline at end of file
+can_jump = 1
 
 
