@@ -141,15 +141,11 @@ scr_state_idle = function()
 		//Run & Dash
 		else if abs(xspd) >= move_spd[1] 
 		{
-	//<<<<<<< Updated upstream
-			
 			if sprite_index != run_spr{
-	//=======
 			//Dash
 			if !on_ground
 			{
 			if sprite_index != dash_air_spr
-	//>>>>>>> Stashed changes
 		    {image_index = 0}
 			sprite_index = dash_air_spr;
 			}

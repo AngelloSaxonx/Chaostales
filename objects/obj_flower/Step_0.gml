@@ -2,4 +2,4 @@ scr_get_control()
 
 state();
 
-depth = 200;
+depth = -300;
