@@ -1,41 +1,25 @@
-event_inherited()
-Health_bar = 4
-grav = .275;
-max_grav = 4
-jspd = 6
-spd = 2
-
-pit_check_range = 30 //pit_check_depth+ (pit_check_depth/2)
-pit_check_depth = 20
-jump_range = 60//jspd*15
-fall_range = spd*50
-detect_range = 120
-timer_rescout = 300;
-
-state = "Wandering"
-sub_state = "Scouting"
-
-/////  Don't change it.  /////
-y = y-1
-hurted = 0;
-idle_spr = spr_nakoling;
-walk_spr = spr_nakoling_walk;
-jump_spr = spr_nakoling_jump
-attack_spr = spr_nakoling_slash
-Target = obj_flowerl
-destinationX = x
-destinationY = y
-TargetX = destinationX
-TargetY = destinationY
-check_my_self = 1;
 path = path_add()
+
 xspd = 0;
 yspd = 0;
-LeapX = 0;
-LeapY = 0;
-knockX = 0;
-knockY = 0;
+jspd = 6
+spd = 1
+grav = .275
+term_vel = 4;
+max_spd = spd
 should_jump = 0;
-y_ground = room_height
-make_unstuck = 0;
-can_jump = 1
+ground_y = bbox_bottom
+ground_y1 = bbox_bottom
+jump_rangeX = 22
+jump_rangeX2 = 32
+jump_rangeY = 63
+jump_range_limitY = 0;
+jump_range_detectY = 0;
+pit_rangeX = 14+(spd*6)
+
+know = 0;
+
+targetX = obj_flowerl.x
+targetY = obj_flowerl.y
+
+text = 0;

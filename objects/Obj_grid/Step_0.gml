@@ -1,1 +1,1 @@
-mp_grid_add_instances(cell,obj_collision,true)
+//mp_grid_add_instances(cell,obj_collision,true)

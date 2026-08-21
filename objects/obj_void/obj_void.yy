@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_pathfindable",
+  "%Name":"obj_void",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_pathfindable",
+  "name":"obj_void",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_collision",
-    "path":"sprites/spr_collision/spr_collision.yy",
+    "name":"Spr_path_blocker",
+    "path":"sprites/Spr_path_blocker/Spr_path_blocker.yy",
   },
   "spriteMaskId":null,
   "visible":false,

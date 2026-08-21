@@ -1,0 +1,11 @@
+{
+  "$GMNotes":"v1",
+  "%Name":"Prev_pathfinding_1",
+  "name":"Prev_pathfinding_1",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
+  },
+  "resourceType":"GMNotes",
+  "resourceVersion":"2.0",
+}
