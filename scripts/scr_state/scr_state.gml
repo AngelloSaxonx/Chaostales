@@ -26,14 +26,14 @@ function scr_state_jump(){
     {
         jump_hold_timer = 0;
 		
-		if (yspd < 0) // if jump_spd still exist in yspd, double the grav_spd and removing the jump drastically
+		if (yspd < 0)
 		{
 			yspd += grav
 		}
     }
     if jump_hold_timer > 0
     {
-        yspd = (jspd[jump_count-1]) / max(1,1+( (16-jump_hold_timer)*0.125) ) // this decrease the jspd the more you hold it, making the early frames have more jump_spd on yspd
+        yspd = (jspd[jump_count-1]) / max(1,1+( (16-jump_hold_timer)*0.125) ) 
 		
         jump_hold_timer--;
     }

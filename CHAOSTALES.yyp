@@ -216,6 +216,7 @@
     {"id":{"name":"spr_nako_walk","path":"sprites/spr_nako_walk/spr_nako_walk.yy",},},
     {"id":{"name":"spr_nako","path":"sprites/spr_nako/spr_nako.yy",},},
     {"id":{"name":"spr_redlizard_bite","path":"sprites/spr_redlizard_bite/spr_redlizard_bite.yy",},},
+    {"id":{"name":"spr_redlizard_hurt","path":"sprites/spr_redlizard_hurt/spr_redlizard_hurt.yy",},},
     {"id":{"name":"spr_redlizard_jump","path":"sprites/spr_redlizard_jump/spr_redlizard_jump.yy",},},
     {"id":{"name":"spr_redlizard_walk","path":"sprites/spr_redlizard_walk/spr_redlizard_walk.yy",},},
     {"id":{"name":"spr_redlizard","path":"sprites/spr_redlizard/spr_redlizard.yy",},},
