@@ -1,5 +1,5 @@
 event_inherited()
-Health_bar = 1//obj_stats.hp
+Health_bar = 10//obj_stats.hp
 test_text = 0;
 scr_contol_setup()
 

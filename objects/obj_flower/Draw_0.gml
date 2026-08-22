@@ -1,6 +1,6 @@
 //Draw
 draw_self()
-/*if (abs(xspd != 0)) && (from != noone) && (state != scr_wall_recovery)
+if (abs(xspd != 0)) && (from != noone) && (state != scr_wall_recovery)
 {
 	if (!on_ground)
 	{
