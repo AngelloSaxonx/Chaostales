@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_void",
+  "%Name":"obj_interact",
   "eventList":[],
   "managed":true,
-  "name":"obj_void",
+  "name":"obj_interact",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"Dialogue",
+    "path":"folders/Objects/Dialogue.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_path_blocker",
-    "path":"sprites/spr_path_blocker/spr_path_blocker.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

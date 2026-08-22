@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_path_blocker",
+  "%Name":"obj_path_blocker",
   "eventList":[],
   "managed":true,
-  "name":"Obj_path_blocker",
+  "name":"obj_path_blocker",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_path_blocker",
-    "path":"sprites/Spr_path_blocker/Spr_path_blocker.yy",
+    "name":"spr_path_blocker",
+    "path":"sprites/spr_path_blocker/spr_path_blocker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

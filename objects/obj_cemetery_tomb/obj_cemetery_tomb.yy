@@ -12,7 +12,10 @@
     "name":"Autumn Cemetery",
     "path":"folders/Objects/Autumn Cemetery.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interact",
+    "path":"objects/obj_interact/obj_interact.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

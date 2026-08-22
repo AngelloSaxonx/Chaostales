@@ -68,7 +68,7 @@ scr_state_idle = function()
 	{sprite_index = idle_spr;hurted = 0;knockX = 0;knockY = 0;}
 	
 	
-	if (hurted == 0)
+	if (hurted == 0) && (!instance_exists(obj_textbox))
 	{
     move_dir = right_key - left_key;
 
@@ -86,7 +86,10 @@ scr_state_idle = function()
 
     //Attack
 	#region
+	if (!instance_exists(obj_textbox))
+	{
 	Attack_stage_for_player()
+	}
 	#endregion
 	
     if yspd >= 0 && !place_meeting(x + xspd, y + 1, obj_collision)
@@ -98,9 +101,13 @@ scr_state_idle = function()
 	{
 		state = scr_state_swim;
 	}
-	if (hurted == 0)
+	
+	if !place_meeting(x,y,obj_interact)
 	{
-    scr_state_jump()
+		if (hurted == 0) && (!instance_exists(obj_textbox))
+		{
+	    scr_state_jump()
+		}
 	}
     scr_movement();
 	
@@ -108,7 +115,7 @@ scr_state_idle = function()
 	if ( (coll && (coll.bbox_top > bbox_top+1)))
 	&& !(instance_place(x,y+20,obj_collision))
 	{
-		var stop_if_up = collision_rectangle(coll.bbox_left,coll.bbox_top-1,coll.LPoint,coll.bbox_top,obj_collision,false,true)
+		var stop_if_up = collision_rectangle(coll.bbox_left,coll.bbox_top-1,coll.bbox_left+10,coll.bbox_top,obj_collision,false,true)
 		if (stop_if_up == noone) || (stop_if_up != noone && stop_if_up == id)
 		{
 			state = scr_wall_recovery
