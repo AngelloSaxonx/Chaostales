@@ -12,10 +12,7 @@
     "name":"Scarlet Fields",
     "path":"folders/Objects/Scarlet Fields.yy",
   },
-  "parentObjectId":{
-    "name":"obj_interact",
-    "path":"objects/obj_interact/obj_interact.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

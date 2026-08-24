@@ -1,3 +1,3 @@
 target_x = 300;
 target_y = 140;
-target_rm = rm_scarlet_save_1;
+target_rm = rm_scarlet_3;

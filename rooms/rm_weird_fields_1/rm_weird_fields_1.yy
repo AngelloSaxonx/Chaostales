@@ -52,8 +52,8 @@
   ],
   "name":"rm_weird_fields_1",
   "parent":{
-    "name":"Bizzare Fields",
-    "path":"folders/Rooms/Bizzare Fields.yy",
+    "name":"Rooms",
+    "path":"folders/Rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
