@@ -13,7 +13,10 @@
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_hurtbox",
+    "path":"objects/obj_hurtbox/obj_hurtbox.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
