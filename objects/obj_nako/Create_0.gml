@@ -1,4 +1,9 @@
 path = path_add()
+image_moving = 0;
+attack_spr[0] = spr_nako_swing_final
+attack_spr[1] = spr_nako_swing_body
+attack_spr[2] = spr_nako_swing_left_arm
+attack_spr[3] = spr_nako_swing_right_arm
 
 xspd = 0;
 yspd = 0;
@@ -19,7 +24,12 @@ pit_rangeX = 14+(spd*6)
 
 know = 0;
 
-targetX = obj_flower.x
-targetY = obj_flower.y
+target = obj_flower
+targetX = target.x
+targetY = target.y
+target_offsetX = 0
+target_offsetY = 0
 
-text = 0;
+attack = false
+from = 0
+cooldown = 0;

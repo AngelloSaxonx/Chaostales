@@ -75,7 +75,7 @@ if (coll2 > 0)
 	}
 }
 
-if (ground_y-jump_rangeY > obj_flower.bbox_bottom)
+if (ground_y-jump_rangeY > target.bbox_bottom)
 {
 	if (colly)
 	{
@@ -91,14 +91,14 @@ if (ground_y-jump_rangeY > obj_flower.bbox_bottom)
 	}
 	else if collision_rectangle(bbox_left,bbox_bottom,bbox_right,bbox_bottom+1,obj_collision,false,true)
 	{
-		targetX = obj_flower.x
-		targetY = obj_flower.y
+		targetX = target.x + target_offsetX
+		targetY = target.y + target_offsetY
 	}
 }
 else //if (x == targetX && y == targetY)
 {
-	targetX = obj_flower.x
-	targetY = obj_flower.y
+	targetX = target.x + target_offsetX
+	targetY = target.y + target_offsetY
 }
 
 ds_list_destroy(list2)
@@ -122,7 +122,7 @@ if mp_grid_path(obj_grid.grid,path,x,y-offsetY,targetX,targetY-offsetTargetY,tru
 	if instance_place(x,y+1+yspd,obj_collision)
 	{
 		var crlY = 9
-		if (ground_y > obj_flower.bbox_bottom-2)
+		if (ground_y > target.bbox_bottom-2)
 		{
 			crlY = 0;
 		}
@@ -132,7 +132,7 @@ if mp_grid_path(obj_grid.grid,path,x,y-offsetY,targetX,targetY-offsetTargetY,tru
 			text = 1
 			if (collision_rectangle(bbox_left-(3-(abs(xspd)*3))+(xspd*jump_rangeX),ground_y-jump_range_limitY+1,bbox_right+(3-(abs(xspd)*3))+(xspd*jump_rangeX),ground_y-1,obj_collision,false,true)
 			&& !collision_rectangle(bbox_left,ground_y-jump_rangeY,bbox_right,ground_y-1,obj_collision,false,true))
-			|| (!collision_rectangle(bbox_left+(xspd*pit_rangeX),ground_y1,bbox_right+(xspd*pit_rangeX),ground_y1+1,obj_collision,false,true) && (ground_y1 >= obj_flower.bbox_bottom-1))
+			|| (!collision_rectangle(bbox_left+(xspd*pit_rangeX),ground_y1,bbox_right+(xspd*pit_rangeX),ground_y1+1,obj_collision,false,true) && (ground_y1 >= target.bbox_bottom-1))
 			{yspd = -jspd;}
 		}
 		else
@@ -151,9 +151,9 @@ if mp_grid_path(obj_grid.grid,path,x,y-offsetY,targetX,targetY-offsetTargetY,tru
 				}
 			}
 			
-			if (!collision_rectangle(bbox_left+(xspd*pit_rangeX),ground_y1-1,bbox_right+(xspd*pit_rangeX),ground_y1+1,obj_collision,false,true) && (ground_y1 >= obj_flower.bbox_bottom-1))
+			if (!collision_rectangle(bbox_left+(xspd*pit_rangeX),ground_y1-1,bbox_right+(xspd*pit_rangeX),ground_y1+1,obj_collision,false,true) && (ground_y1 >= target.bbox_bottom-1))
 			|| (collision_rectangle(bbox_left-1+(xspd*jump_rangeX),ground_y-jump_range_limitY,bbox_right+1+(xspd*jump_rangeX),ground_y-1,obj_collision,false,true)
-			&& (inst != noone) && (ground_y >= obj_flower.bbox_bottom))
+			&& (inst != noone) && (ground_y >= target.bbox_bottom))
 			//
 			
 			{yspd = -jspd;}
@@ -188,6 +188,8 @@ if instance_place(x,y+yspd,obj_collision)
 }
 else
 {
+	var ground_landed = 0;
+	
 	if !instance_place(x,y+1+(yspd/2),obj_collision)
 	{
 	if (yspd < term_vel)
@@ -213,6 +215,35 @@ x += (xspd*max_spd)
 y += yspd
 
 #endregion
+
+if collision_circle(x,y,40,target,false,true) && (from =  noone) && (cooldown == 0)
+{
+	attack = true
+}
+
+var AtkX = x+(image_xscale*20)
+var AtkY = bbox_bottom-10
+	
+if (attack = true) && (from == noone)
+{
+	var atk = instance_create_depth(AtkX,AtkY,depth,Obj_hitbox_nako_slash)
+	atk.image_xscale = image_xscale
+	from = atk.id
+	cooldown = 60;
+}
+	
+if (from != noone) {
+	if instance_exists(from) {from.x = AtkX+xspd; from.y = AtkY+yspd; from.image_xscale = image_xscale}
+	else {from = noone}
+	attack = false
+}
+else
+{
+	if (cooldown > 0)
+	{cooldown--;}
+	else{cooldown = 0}
+}
+
 
 if (xspd != 0)
 {
