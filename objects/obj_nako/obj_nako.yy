@@ -13,10 +13,7 @@
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":{
-    "name":"obj_hurtbox",
-    "path":"objects/obj_hurtbox/obj_hurtbox.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_nako",
-    "path":"sprites/spr_nako/spr_nako.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -6,8 +6,8 @@
   "name":"obj_void",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enemies",
-    "path":"folders/Objects/Enemies.yy",
+    "name":"System",
+    "path":"folders/Objects/Enemies/System.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,5 +32,5 @@
     "path":"sprites/spr_path_blocker/spr_path_blocker.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
