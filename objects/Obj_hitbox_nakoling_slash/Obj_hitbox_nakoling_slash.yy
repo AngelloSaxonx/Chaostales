@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_crimson_tent_1",
+  "%Name":"Obj_hitbox_nakoling_slash",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_crimson_tent_1",
+  "name":"Obj_hitbox_nakoling_slash",
   "overriddenProperties":[],
   "parent":{
-    "name":"Crimson Fields",
-    "path":"folders/Objets/Crimson Fields.yy",
+    "name":"Hitboxes",
+    "path":"folders/Objects/Hitboxes.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_crimson_tent_1",
-    "path":"sprites/spr_crimson_tent_1/spr_crimson_tent_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }
