@@ -12,6 +12,9 @@ y = display_get_gui_height() - height - x_margin;
 text_sprite = spr_textbox_classic;
 text_font = global.classic_font;
 text_color = #ffffff;
+sub_text_color = [ #ffffff];
+start_color = [0];
+end_color = [0];
 text_speed = 1;
 text_x = padding * 2;
 text_y = padding;
@@ -75,9 +78,12 @@ next = function()
 	
 }
 
-set_text = function(_set_text)
+set_text = function(_set_text,_color,_start,_end)
 {
 	text = _set_text;
+	sub_text_color = _color;
+	start_color = _start;
+	end_color = _end;
 	text_length = string_length(_set_text);
 	text_progress = 0;
 }

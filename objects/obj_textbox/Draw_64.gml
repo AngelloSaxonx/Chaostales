@@ -48,5 +48,6 @@ if speaker_name != ""
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(text_font);
-draw_set_color(text_color);
-scr_type(_draw_text_x + text_x, _draw_text_y + text_y, text, text_progress, _draw_text_width);
+
+scr_type(_draw_text_x + text_x, _draw_text_y + text_y, text, text_progress, _draw_text_width, 
+text_color, sub_text_color,start_color,end_color);

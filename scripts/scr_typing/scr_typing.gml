@@ -7,7 +7,7 @@ function scr_start_cutscene(_cutscene)
 	_inst.start_cutscene(_cutscene);
 }
 
-function scr_type( x, y, _text, _progress, _width)
+function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _end)
 {
 	var _draw_x = 0;
 	var _draw_y = 0;
@@ -42,9 +42,18 @@ function scr_type( x, y, _text, _progress, _width)
 				}
 			}
 		}
-		else
+		else//page = current_action // draw_char = text_progress
 		{
-			draw_text(x + _draw_x, y + _draw_y, _char);
+			var current_color = c_color1; 
+		    for (var k = 0; k < array_length(_start); k++) {
+		        if (_i >= _start[k] && _i <= _end[k]) {
+		            current_color = c_color2[k];
+		            break;
+		        }
+		    }
+			draw_text_color(x + _draw_x,y + _draw_y, _char,current_color,current_color,current_color,current_color,1);
+			
+			//draw_text_custom(x + _draw_x, y +_draw_y,_char,c_white,c_red,1,5,_i)
 			_draw_x += string_width(_char);
 		}
 	}
