@@ -3,18 +3,20 @@ function scr_actions() constructor
 	act = function() {};
 }
 
-function scr_text(_text,_color,_start,_end) : scr_actions() constructor
+function scr_text(_text,_color,float_on,_start,_end) : scr_actions() constructor
 {
 	text = _text;
 	sub_text_color = _color;
-	start_color = _start;
-	end_color = _end;
+	float_text = float_on
+	start_effect = _start;
+	end_effect = _end;
 	
 	act = function(_textbox)
 	{
-		_textbox.set_text(text,sub_text_color,start_color,end_color);
+		_textbox.set_text(text,sub_text_color,float_text,start_effect,end_effect);
 	}
 }
+
 
 function scr_speaker(_sprite = undefined, _portrait = undefined, _side = undefined) : scr_actions() constructor
 {

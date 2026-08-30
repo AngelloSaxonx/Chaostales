@@ -12,9 +12,7 @@ y = display_get_gui_height() - height - x_margin;
 text_sprite = spr_textbox_classic;
 text_font = global.classic_font;
 text_color = #ffffff;
-sub_text_color = [ #ffffff];
-start_color = [0];
-end_color = [0];
+
 text_speed = 1;
 text_x = padding * 2;
 text_y = padding;
@@ -38,6 +36,12 @@ current_action = -1;
 text = "";
 text_progress = 0;
 text_length = 0;
+
+sub_text_color = [ #ffffff];
+float_text = [0];
+//float_dir = 0;
+start_effect = [0];
+end_effect = [0];
 
 portrait_sprite = -1;
 portrait_width = 60;
@@ -78,12 +82,17 @@ next = function()
 	
 }
 
-set_text = function(_set_text,_color,_start,_end)
+set_text = function(_set_text,_color,float_on,_start,_end)
 {
 	text = _set_text;
 	sub_text_color = _color;
-	start_color = _start;
-	end_color = _end;
+	float_text = float_on
+	float_dir = 0;
+	start_effect = _start;
+	end_effect = _end;
 	text_length = string_length(_set_text);
 	text_progress = 0;
+	for (var i = 0; i < text_length; ++i) {
+		float_dir[i] = i*20
+	}
 }
