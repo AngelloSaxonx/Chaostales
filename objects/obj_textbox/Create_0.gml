@@ -38,8 +38,7 @@ text_progress = 0;
 text_length = 0;
 
 sub_text_color = [ #ffffff];
-float_text = [0];
-//float_dir = 0;
+effect_text = [0];
 start_effect = [0];
 end_effect = [0];
 
@@ -82,11 +81,11 @@ next = function()
 	
 }
 
-set_text = function(_set_text,_color,float_on,_start,_end)
+set_text = function(_set_text,_color,effect_on,_start,_end)
 {
 	text = _set_text;
 	sub_text_color = _color;
-	float_text = float_on
+	effect_text = effect_on
 	float_dir = 0;
 	start_effect = _start;
 	end_effect = _end;
@@ -94,5 +93,9 @@ set_text = function(_set_text,_color,float_on,_start,_end)
 	text_progress = 0;
 	for (var i = 0; i < text_length; ++i) {
 		float_dir[i] = i*20
+	}
+	for (var j = 0; j < text_length; ++j) {
+		shake_dir[j] = irandom_range(0,359)
+		shake_timer[j] = irandom(4)
 	}
 }

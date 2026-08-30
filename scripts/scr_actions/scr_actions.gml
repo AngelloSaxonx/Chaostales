@@ -3,17 +3,17 @@ function scr_actions() constructor
 	act = function() {};
 }
 
-function scr_text(_text,_color,float_on,_start,_end) : scr_actions() constructor
+function scr_text(_text,_color,effect_on,_start,_end) : scr_actions() constructor
 {
 	text = _text;
 	sub_text_color = _color;
-	float_text = float_on
+	effect_text = effect_on
 	start_effect = _start;
 	end_effect = _end;
 	
 	act = function(_textbox)
 	{
-		_textbox.set_text(text,sub_text_color,float_text,start_effect,end_effect);
+		_textbox.set_text(text,sub_text_color,effect_text,start_effect,end_effect);
 	}
 }
 
