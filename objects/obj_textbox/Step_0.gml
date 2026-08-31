@@ -12,4 +12,3 @@ else if cancel_key
 {
 	text_progress = text_length
 }
-

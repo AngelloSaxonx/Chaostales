@@ -93,9 +93,8 @@ set_text = function(_set_text,_color,effect_on,_start,_end)
 	text_progress = 0;
 	for (var i = 0; i < text_length; ++i) {
 		float_dir[i] = i*20
-	}
-	for (var j = 0; j < text_length; ++j) {
-		shake_dir[j] = irandom_range(0,359)
-		shake_timer[j] = irandom(4)
+		shake_dir[i] = irandom_range(0,359)
+		shake_timer[i] = irandom(4)
+		big_small_dur[i] = 0;
 	}
 }

@@ -49,6 +49,5 @@ draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_font(text_font);
 
-
 scr_type(_draw_text_x + text_x, _draw_text_y + text_y, text, text_progress, _draw_text_width, 
 text_color, sub_text_color,start_effect,end_effect);

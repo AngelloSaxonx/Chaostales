@@ -209,6 +209,7 @@
     {"id":{"name":"spr_cemetery_statue_a","path":"sprites/spr_cemetery_statue_a/spr_cemetery_statue_a.yy",},},
     {"id":{"name":"spr_cemetery_statue_b","path":"sprites/spr_cemetery_statue_b/spr_cemetery_statue_b.yy",},},
     {"id":{"name":"spr_cemetery_tomb","path":"sprites/spr_cemetery_tomb/spr_cemetery_tomb.yy",},},
+    {"id":{"name":"spr_classic_font_1","path":"sprites/spr_classic_font_1/spr_classic_font_1.yy",},},
     {"id":{"name":"spr_classic_font","path":"sprites/spr_classic_font/spr_classic_font.yy",},},
     {"id":{"name":"spr_climb","path":"sprites/spr_climb/spr_climb.yy",},},
     {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},

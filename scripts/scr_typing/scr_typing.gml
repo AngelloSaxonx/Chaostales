@@ -46,6 +46,10 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 		{
 			var move_x = 0;
 			var move_y = 0;
+			var scale_x = 1;
+			var scale_y = 1;
+			var scale_alpha = 1;
+			var text_rotate = 0;
 			var current_color = c_color1; 
 		    for (var k = 0; k < array_length(_start); k++) {
 		        if (_i >= _start[k] && _i <= _end[k]) {
@@ -69,10 +73,30 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 							move_y = lengthdir_y(1,shake_dir[_i])
 						}
 					}
+					else if (effect_text[k] = 3)
+					{
+						var pre_scale = 5
+						if (big_small_dur[_i] > -(pre_scale-1)) 
+						{big_small_dur[_i] -= (pre_scale/50)}
+						
+						scale_x = pre_scale + big_small_dur[_i]
+						scale_y = pre_scale + big_small_dur[_i]
+						scale_alpha = min(0-(big_small_dur[_i]/(pre_scale-1)),1)
+					}
+					else if (effect_text[k] = 4)
+					{
+						var pre_scale = 0
+						if (big_small_dur[_i] < 1) 
+						{big_small_dur[_i] += 0.1}
+						
+						//scale_x = pre_scale + big_small_dur[_i]
+						//scale_y = pre_scale + big_small_dur[_i]
+						scale_alpha = min(0-(big_small_dur[_i]/(pre_scale-1)),1)
+					}
 		        }
 		    }
-			draw_text_color(x + _draw_x+ move_x,y + _draw_y+move_y, _char,current_color,current_color,current_color,current_color,1);
-			
+			draw_set_font(text_font)
+			draw_text_transformed_color(x-5 + _draw_x+ move_x,y+3 + _draw_y+move_y, _char, scale_x, scale_y, text_rotate ,current_color,current_color,current_color,current_color,scale_alpha);
 			//draw_text_custom(x + _draw_x, y +_draw_y,_char,c_white,c_red,1,5,_i)
 			_draw_x += string_width(_char);
 		}
