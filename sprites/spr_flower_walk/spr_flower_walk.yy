@@ -5,7 +5,7 @@
   "bbox_bottom":39,
   "bbox_left":0,
   "bbox_right":23,
-  "bbox_top":11,
+  "bbox_top":10,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -14,7 +14,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"b383bb6a-12c7-4855-b3f9-e5eaa2302ee9","name":"b383bb6a-12c7-4855-b3f9-e5eaa2302ee9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"3ee73566-87dc-4716-b145-d8c2a37afdb2","name":"3ee73566-87dc-4716-b145-d8c2a37afdb2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"v1","%Name":"9c99c974-9a4c-44a6-ae09-8bf8e5d3b00c","name":"9c99c974-9a4c-44a6-ae09-8bf8e5d3b00c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1932a8af-9ab8-48c0-8be9-1848c32a63a1","name":"1932a8af-9ab8-48c0-8be9-1848c32a63a1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"a21cdc23-1da9-47f8-9d8e-cfef1f5266da","name":"a21cdc23-1da9-47f8-9d8e-cfef1f5266da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":20,
@@ -80,8 +80,8 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"3ee73566-87dc-4716-b145-d8c2a37afdb2","path":"sprites/spr_flower_walk/spr_flower_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9895b391-7851-4300-a196-7af09539e143","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9c99c974-9a4c-44a6-ae09-8bf8e5d3b00c","path":"sprites/spr_flower_walk/spr_flower_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a6cc939-4de5-4d83-9e52-c21cfe6ac569","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1932a8af-9ab8-48c0-8be9-1848c32a63a1","path":"sprites/spr_flower_walk/spr_flower_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d9d9d51b-a3ad-4f7e-a9cd-c37ad3bf6b26","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a21cdc23-1da9-47f8-9d8e-cfef1f5266da","path":"sprites/spr_flower_walk/spr_flower_walk.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8c552948-dbff-415c-8e72-dbf456576d9b","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
