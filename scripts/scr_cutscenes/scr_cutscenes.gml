@@ -23,8 +23,8 @@ global.cutscenes[$ "tomb"] =
 
 global.cutscenes[$ "scarlet teapot"] = 
 [
-	new scr_text("Teapots...",[ #EE1C24],[4],[1],[7]),
-	new scr_text("Meant for two lovers.",[ #197B30, #197B30],[0,3],[1,15],[5,20]),
+	new scr_text("Teapots...@flower@",[ #EE1C24],[4],[1],[7]),
+	new scr_text("Meant for two lovers.@nako@",[ #197B30, #197B30],[0,3],[1,15],[5,20]),
 	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral_a, PORTRAIT_SIDE.LEFT),
 	new scr_text("Wish i'd ride one someday.",[ #EE1C24, #197B30],[1,0],[5,14],[8,17])
 ]

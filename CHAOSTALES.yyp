@@ -194,6 +194,7 @@
     {"id":{"name":"rm_weird_fields_1","path":"rooms/rm_weird_fields_1/rm_weird_fields_1.yy",},},
     {"id":{"name":"rm_weird_fields_2","path":"rooms/rm_weird_fields_2/rm_weird_fields_2.yy",},},
     {"id":{"name":"Test","path":"rooms/Test/Test.yy",},},
+    {"id":{"name":"Key_word","path":"scripts/Key_word/Key_word.yy",},},
     {"id":{"name":"scr_actions","path":"scripts/scr_actions/scr_actions.yy",},},
     {"id":{"name":"scr_anim_jump","path":"scripts/scr_anim_jump/scr_anim_jump.yy",},},
     {"id":{"name":"scr_attack","path":"scripts/scr_attack/scr_attack.yy",},},

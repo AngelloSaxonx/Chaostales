@@ -58,6 +58,7 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 					{
 						float_dir[_i] -= 6
 						move_y = dsin(float_dir[_i])*1
+						break;
 					}
 					else if (effect_text[k] = 2)
 					{
@@ -72,6 +73,7 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 							move_x = lengthdir_x(1,shake_dir[_i])
 							move_y = lengthdir_y(1,shake_dir[_i])
 						}
+						break;
 					}
 					else if (effect_text[k] = 3)
 					{
@@ -82,6 +84,7 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 						scale_x = pre_scale + big_small_dur[_i]
 						scale_y = pre_scale + big_small_dur[_i]
 						scale_alpha = min(0-(big_small_dur[_i]/(pre_scale-1)),1)
+						break;
 					}
 					else if (effect_text[k] = 4)
 					{
@@ -92,13 +95,29 @@ function scr_type( x, y, _text, _progress, _width, c_color1, c_color2, _start, _
 						//scale_x = pre_scale + big_small_dur[_i]
 						//scale_y = pre_scale + big_small_dur[_i]
 						scale_alpha = min(0-(big_small_dur[_i]/(pre_scale-1)),1)
+						break;
 					}
 		        }
 		    }
-			draw_set_font(text_font)
+			var _used = 0
+			for (var o = 0; o < array_length(key_word); ++o) {
+				
+				if string_copy(_text,_i,string_length(key_word[o])) = key_word[o]
+				{
+					draw_sprite(mini_sprite[o],0,x+_draw_x,y+_draw_y)
+					_i += string_length(key_word[o]) - 1
+					_draw_x += 20
+					_used = 1
+					break;
+				}
+				
+			}
+			
+			if (_used == 0)
+			{
 			draw_text_transformed_color(x-5 + _draw_x+ move_x,y+3 + _draw_y+move_y, _char, scale_x, scale_y, text_rotate ,current_color,current_color,current_color,current_color,scale_alpha);
-			//draw_text_custom(x + _draw_x, y +_draw_y,_char,c_white,c_red,1,5,_i)
 			_draw_x += string_width(_char);
+			}
 		}
 	}
 }

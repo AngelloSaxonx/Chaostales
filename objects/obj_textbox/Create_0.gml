@@ -17,6 +17,7 @@ text_speed = 1;
 text_x = padding * 2;
 text_y = padding;
 text_width = width - padding*2;
+Key_word()
 
 //Portrait
 portrait_x = padding;
