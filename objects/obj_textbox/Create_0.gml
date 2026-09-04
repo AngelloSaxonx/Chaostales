@@ -42,6 +42,9 @@ sub_text_color = [ #ffffff];
 effect_text = [0];
 start_effect = [0];
 end_effect = [0];
+speed_text = [1];
+start_speed = [0];
+end_speed = [0];
 
 portrait_sprite = -1;
 portrait_width = 60;
@@ -82,14 +85,18 @@ next = function()
 	
 }
 
-set_text = function(_set_text,_color,effect_on,_start,_end)
+set_text = function(_set_text,_color,effect_on,_startE,_endE,_spd,_time,_startS,_endS)
 {
 	text = _set_text;
 	sub_text_color = _color;
 	effect_text = effect_on
 	float_dir = 0;
-	start_effect = _start;
-	end_effect = _end;
+	start_effect = _startE;
+	end_effect = _endE;
+	speed_text = _spd;
+	delayed_text = _time;
+	start_speed = _startS;
+	end_speed = _endS;
 	text_length = string_length(_set_text);
 	text_progress = 0;
 	for (var i = 0; i < text_length; ++i) {
@@ -97,5 +104,15 @@ set_text = function(_set_text,_color,effect_on,_start,_end)
 		shake_dir[i] = irandom_range(0,359)
 		shake_timer[i] = irandom(4)
 		big_small_dur[i] = 0;
+	}
+}
+
+for (var s = 0; s < array_length(start_speed); s++) {
+	if (text_progress >= start_speed[s]-1 && text_progress <= end_speed[s]+1) {
+		text_speed = speed_text[s]
+	}
+	else
+	{
+		text_speed = 1
 	}
 }

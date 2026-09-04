@@ -3,17 +3,20 @@ function scr_actions() constructor
 	act = function() {};
 }
 
-function scr_text(_text,_color,effect_on,_start,_end) : scr_actions() constructor
+function scr_text(_text,_color,effect_on,_startE,_endE,_spd,_time,_startS,_endS) : scr_actions() constructor
 {
 	text = _text;
 	sub_text_color = _color;
 	effect_text = effect_on
-	start_effect = _start;
-	end_effect = _end;
-	
+	start_effect = _startE;
+	end_effect = _endE;
+	speed_text = _spd;
+	delayed_text = _time;
+	start_speed = _startS;
+	end_speed = _endS;
 	act = function(_textbox)
 	{
-		_textbox.set_text(text,sub_text_color,effect_text,start_effect,end_effect);
+		_textbox.set_text(text,sub_text_color,effect_text,start_effect,end_effect,speed_text,delayed_text,start_speed,end_speed);
 	}
 }
 

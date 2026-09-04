@@ -1,0 +1,1 @@
+draw_text(200,70,alarm[0])
