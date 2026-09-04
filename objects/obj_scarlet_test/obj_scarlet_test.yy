@@ -1,17 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_scarlet_statue_red",
+  "%Name":"obj_scarlet_test",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_scarlet_statue_red",
+  "name":"obj_scarlet_test",
   "overriddenProperties":[],
   "parent":{
-    "name":"Scarlet Fields",
-    "path":"folders/Objects/Scarlet Fields.yy",
+    "name":"Dialogue",
+    "path":"folders/Objects/Dialogue.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_interact",
+    "path":"objects/obj_interact/obj_interact.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scarlet_statue_tale",
-    "path":"sprites/spr_scarlet_statue_tale/spr_scarlet_statue_tale.yy",
+    "name":"spr_scarlet_teapot",
+    "path":"sprites/spr_scarlet_teapot/spr_scarlet_teapot.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -2,11 +2,9 @@ global.cutscenes = {};
 
 global.cutscenes[$ "test"] = 
 [
-	new scr_text("Text testing",[ #ffffff],[0],[0],[0]),
-	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral_a, PORTRAIT_SIDE.LEFT),
-	new scr_text("Floriel left testing.",[ #ffffff],[0],[0],[0]),
-	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral_a, PORTRAIT_SIDE.RIGHT),
-	new scr_text("Floriel right testing",[ #ffffff],[0],[0],[0])
+	new scr_text("Text test",[ #ffffff],[0],[0],[0]),
+	new scr_speaker(spr_textbox_flower,spr_flower_portrait_neutral_a,PORTRAIT_SIDE.LEFT),
+	new scr_text("@flower@Flower test",[ #FFF200],[0],[9],[14])
 ]
 
 global.cutscenes[$ "door"] = 
@@ -23,10 +21,10 @@ global.cutscenes[$ "tomb"] =
 
 global.cutscenes[$ "scarlet teapot"] = 
 [
-	new scr_text("Teapots...@flower@",[ #EE1C24],[4],[1],[7]),
-	new scr_text("Meant for two lovers.@nako@",[ #197B30, #197B30],[0,3],[1,15],[5,20]),
+	new scr_text("Teapots...",[ #CC9F4F],[1],[1],[10]),
+	new scr_text("Meant for two lovers.",[ #ffffff],[0],[0],[0]),
 	new scr_speaker(spr_textbox_flower, spr_flower_portrait_neutral_a, PORTRAIT_SIDE.LEFT),
-	new scr_text("Wish i'd ride one someday.",[ #EE1C24, #197B30],[1,0],[5,14],[8,17])
+	new scr_text("Wish i'd ride one someday.",[ #CC9F4F],[1],[15],[17])
 ]
 
 global.cutscenes[$ "rouge pastry"] = 

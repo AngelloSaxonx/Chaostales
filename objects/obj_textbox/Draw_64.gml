@@ -29,7 +29,7 @@ if (sprite_exists(portrait_sprite))
 	if (!_finished)
 		_subming = (text_progress / text_speed) * (sprite_get_speed(portrait_sprite) / game_get_speed(gamespeed_fps));
 		
-	draw_sprite_ext(portrait_sprite, _subming, _draw_portrait_x + portrait_width / 2, _draw_portrait_y + portrait_height / 2 - 2, _draw_portrait_xscale, 1, 0, #ffffff, 1);
+	draw_sprite_ext(portrait_sprite, _subming, _draw_portrait_x + portrait_width / 2 - 2, _draw_portrait_y + portrait_height / 2 - 2, _draw_portrait_xscale, 1, 0, #ffffff, 1);
 	
 }
 
