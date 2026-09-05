@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Scarlet Fields",
-    "path":"folders/Objects/Scarlet Fields.yy",
+    "path":"folders/Objects/Prologue/Scarlet Fields.yy",
   },
   "parentObjectId":{
     "name":"obj_interact",

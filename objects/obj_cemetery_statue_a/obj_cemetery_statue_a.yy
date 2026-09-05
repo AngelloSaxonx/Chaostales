@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Autumn Cemetery",
-    "path":"folders/Objects/Autumn Cemetery.yy",
+    "path":"folders/Objects/Prologue/Autumn Cemetery.yy",
   },
   "parentObjectId":null,
   "persistent":false,
